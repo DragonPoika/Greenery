@@ -22,7 +22,7 @@
                   {
                     "text": "Replant",
                     "color": "gray",
-                    "italic": "false"
+                    "italic": false
                   }
                 ]
               }

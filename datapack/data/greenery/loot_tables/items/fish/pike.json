@@ -13,13 +13,13 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:3}"
+              "tag": "{CustomModelData:2}"
             },
             {
               "function": "minecraft:set_name",
               "name": [
                 {
-                  "translate": "item.greenery.tuna",
+                  "translate": "item.greenery.pike",
                   "italic": false
                 }
               ]
@@ -30,7 +30,7 @@
                 [
                   {
                     "translate": "lore.greenery.tooltip",
-                    "color": "green",
+                    "color": "white",
                     "font": "greenery:tooltip",
                     "italic": false
                   },

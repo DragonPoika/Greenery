@@ -30,7 +30,7 @@
                 [
                   {
                     "translate": "lore.greenery.tooltip",
-                    "color": "green",
+                    "color": "white",
                     "font": "greenery:tooltip",
                     "italic": false
                   },

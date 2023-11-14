@@ -1,0 +1,14 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "greenery:items/choco_muffin"
+        }
+      }
+    },
+    "rewards": {
+      "function": "greenery:recipes/items/choco_muffin"
+    }
+  }
+  

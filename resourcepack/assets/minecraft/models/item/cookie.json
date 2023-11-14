@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "greenery:item/koi"
+  },
+	
+	"overrides": [
+		{"predicate": {"custom_model_data":1}, "model": "greenery:item/koi"},
+		{"predicate": {"custom_model_data":2}, "model": "greenery:item/pike"},
+		{"predicate": {"custom_model_data":3}, "model": "greenery:item/tuna"}
+	]
+}

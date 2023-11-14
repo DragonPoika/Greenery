@@ -1,0 +1,14 @@
+{
+    "pack.greenery": "Greenery",
+    "lore.greenery.tooltip": "\ua000",
+
+    "chat.greenery.load": "Thanks for downloading §2§lGreenery§r!\nIf you need help, check these links:\n",
+    "chat.greenery.dot": "§r ・",
+    "chat.greenery.links.discord": " §nDiscord\n",
+    "chat.greenery.links.smithed": " §nSmithed\n",
+    "chat.greenery.links.github": " §nGithub\n",
+
+    "item.greenery.koi": "Koi",
+    "item.greenery.pike": "Pike",
+    "item.greenery.tuna": "Tuna"
+}

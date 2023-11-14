@@ -1,0 +1,10 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:tick"
+      }
+    },
+    "rewards": {
+      "function": "greenery:joined_first_time"
+    }
+}

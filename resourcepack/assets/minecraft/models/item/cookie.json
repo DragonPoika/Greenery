@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "greenery:item/koi"
+    "layer0": "item/cookie"
   },
 	
 	"overrides": [
-		{"predicate": {"custom_model_data":1}, "model": "greenery:item/koi"},
-		{"predicate": {"custom_model_data":2}, "model": "greenery:item/pike"},
-		{"predicate": {"custom_model_data":3}, "model": "greenery:item/tuna"}
+		{"predicate": {"custom_model_data":795000}, "model": "greenery:item/koi"},
+		{"predicate": {"custom_model_data":795001}, "model": "greenery:item/pike"},
+		{"predicate": {"custom_model_data":795002}, "model": "greenery:item/tuna"}
 	]
 }

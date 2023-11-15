@@ -37,7 +37,7 @@
             },
             {
                 "function": "minecraft:set_nbt",
-                "tag": "{greenery:[id:\"cave_carrot\"],CustomModelData:795000}"
+                "tag": "{greenery:{id:\"cave_carrot\"},CustomModelData:795000}"
             }
           ]
         }

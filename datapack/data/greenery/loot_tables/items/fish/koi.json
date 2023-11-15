@@ -13,7 +13,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:795000,greenery:[id:\"koi\"]}"
+              "tag": "{CustomModelData:795000,greenery:{id:\"koi\"}}"
             },
             {
               "function": "minecraft:set_name",

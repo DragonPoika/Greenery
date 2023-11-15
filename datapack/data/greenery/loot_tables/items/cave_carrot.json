@@ -1,0 +1,47 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.greenery.cave_carrot",
+                "fallback": "Cave Carrot"
+              }
+            },
+            {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  [
+                    {
+                      "translate": "lore.greenery.tooltip",
+                      "color": "white",
+                      "font": "greenery:tooltip",
+                      "italic": false
+                    },
+                    {
+                      "text": " "
+                    },
+                    {
+                      "translate": "pack.greenery",
+                      "font": "minecraft:default",
+                      "color": "green"
+                    }
+                  ]
+                ]
+            },
+            {
+                "function": "minecraft:set_nbt",
+                "tag": "{greenery:[id:\"cave_carrot\"],CustomModelData:795000}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

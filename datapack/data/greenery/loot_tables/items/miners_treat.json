@@ -11,6 +11,7 @@
                 "function": "minecraft:set_name",
                 "name": {
                   "translate": "item.greenery.miners_treat",
+                  "italic": false,
                   "fallback": "Miner's Treat"
                 }
               },

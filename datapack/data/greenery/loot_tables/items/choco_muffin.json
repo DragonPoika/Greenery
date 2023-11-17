@@ -38,7 +38,7 @@
             },
             {
                 "function": "minecraft:set_nbt",
-                "tag": "{greenery:{id:\"choco_muffin\"},CustomModelData:795000}"
+                "tag": "{greenery:[{id:\"choco_muffin\"}],CustomModelData:795000}"
             }
           ]
         }

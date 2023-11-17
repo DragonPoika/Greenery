@@ -38,7 +38,7 @@
             },
             {
                 "function": "minecraft:set_nbt",
-                "tag": "{greenery:{id:\"crystallized_beet\"},CustomModelData:795001}"
+                "tag": "{greenery:[{id:\"crystallized_beet\"}],CustomModelData:795001}"
             }
           ]
         }

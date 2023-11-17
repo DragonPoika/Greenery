@@ -38,7 +38,7 @@
               },
               {
                   "function": "minecraft:set_nbt",
-                  "tag": "{greenery:{id:\"miners_treat\"},CustomModelData:795000}"
+                  "tag": "{greenery:[{id:\"miners_treat\"}],CustomModelData:795000}"
               }
             ]
           }

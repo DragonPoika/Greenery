@@ -14,7 +14,7 @@
               },
               {
                 "function": "set_nbt",
-                "tag": "{greenery:[{item:\"replant_enchant\"},{enchanted:1b}]}"
+                "tag": "{greenery:[{id:\"replant_enchant\"},{enchanted:1b}]}"
               },
               {
                 "function": "set_lore",

@@ -42,6 +42,7 @@
             "name": "minecraft:gameplay/fishing/fish",
             "conditions": [
               {
+                "entity": "this",
                 "condition": "minecraft:entity_properties",
                 "predicate": {
                   "nbt": "{Tags:[\"greenery.bobber_has_worm\"]}"

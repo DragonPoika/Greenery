@@ -1,0 +1,39 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"2": "greenery:gree_entity/beekeeper/normal"
+	},
+	"elements": [
+		{
+			"name": "head",
+			"from": [3.48, -0.02, 3.48],
+			"to": [12.52, 4.02, 12.52],
+			"faces": {
+				"north": {"uv": [2, 2, 4, 3], "texture": "#2"},
+				"east": {"uv": [0, 2, 2, 3], "texture": "#2"},
+				"south": {"uv": [6, 2, 8, 3], "texture": "#2"},
+				"west": {"uv": [4, 2, 6, 3], "texture": "#2"},
+				"up": {"uv": [4, 2, 2, 0], "texture": "#2"}
+			}
+		},
+		{
+			"name": "brim",
+			"from": [2, -8, 2],
+			"to": [14, 0, 14],
+			"faces": {
+				"north": {"uv": [11.75, 14, 14.75, 16], "texture": "#2"},
+				"east": {"uv": [11.75, 14, 14.75, 16], "texture": "#2"},
+				"south": {"uv": [11.75, 14, 14.75, 16], "texture": "#2"},
+				"west": {"uv": [11.75, 14, 14.75, 16], "texture": "#2"},
+				"up": {"uv": [11.75, 16, 7.75, 12], "texture": "#2"},
+				"down": {"uv": [11.75, 12, 7.75, 16], "texture": "#2"}
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"translation": [0, 13, 0],
+			"scale": [1.601, 1.601, 1.601]
+		}
+	}
+}

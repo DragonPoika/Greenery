@@ -1,9 +1,0 @@
-{
-    "sources": [
-        {
-            "type": "directory",
-            "source": "greenery:entity",
-            "prefix": "greenery:entity/"
-        }
-    ]
-}

@@ -1,7 +1,7 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"2": "greenery:gree_entity/beekeeper/normal"
+		"2": "greenery:entity/beekeeper"
 	},
 	"elements": [
 		{

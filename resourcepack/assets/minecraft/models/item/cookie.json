@@ -8,6 +8,7 @@
 		{"predicate": {"custom_model_data":795000}, "model": "greenery:item/koi"},
 		{"predicate": {"custom_model_data":795001}, "model": "greenery:item/pike"},
 		{"predicate": {"custom_model_data":795002}, "model": "greenery:item/tuna"},
-		{"predicate": {"custom_model_data":795003}, "model": "greenery:item/worm"}
+		{"predicate": {"custom_model_data":795003}, "model": "greenery:item/worm"},
+		{"predicate": {"custom_model_data":795004}, "model": "greenery:entity/butterfly"}
 	]
 }

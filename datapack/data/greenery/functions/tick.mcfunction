@@ -2,3 +2,8 @@ execute as @e[type=item,predicate=greenery:is_hoe_item] at @s run function green
 execute as @a at @s run function greenery:replant/block_check
 
 execute as @e[type=fishing_bobber,tag=!greenery.bobber_checked] at @s run function greenery:fishing/bobber
+
+
+#Ticking Functions
+    #Entities
+        execute as @e[type=marker,tag=greenery.fishnet] at @s run function greenery:fishing_net/tick

@@ -1,0 +1,52 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:bee_spawn_egg",
+            "functions": [
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                    [
+                        {
+                          "translate": "lore.greenery.tooltip",
+                          "color": "white",
+                          "font": "greenery:tooltip",
+                          "italic": false
+                        },
+                        {
+                          "text": " "
+                        },
+                        {
+                          "translate": "pack.greenery",
+                          "font": "minecraft:default",
+                          "color": "green"
+                        }
+                      ]
+                ]
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "translate": "block.greenery.fising_net",
+                  "fallback": "Fishing Net",
+                  "italic": false
+                }
+              },
+              {
+                "function": "minecraft:set_count",
+                "count": 1
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{EntityTag:{id:\"minecraft:marker\",Tags:[\"greenery.fishnet\"]}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+}  

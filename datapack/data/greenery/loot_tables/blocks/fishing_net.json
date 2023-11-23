@@ -42,7 +42,7 @@
               },
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{EntityTag:{id:\"minecraft:marker\",Tags:[\"greenery.fishnet\"]}}"
+                "tag": "{CustomModelData:795000,EntityTag:{id:\"minecraft:marker\",Tags:[\"greenery.fishnet\"]}}"
               }
             ]
           }

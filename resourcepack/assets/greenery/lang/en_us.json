@@ -10,5 +10,11 @@
 
     "item.greenery.koi": "Koi",
     "item.greenery.pike": "Pike",
-    "item.greenery.tuna": "Tuna"
+    "item.greenery.tuna": "Tuna",
+    "item.greenery.cave_carrot": "Cave Carrot",
+    "item.greenery.choco_muffin": "Cocoa Muffin",
+    "item.greenery.crystallized_beet": "Crystallized Beetroot",
+    "item.greenery.miners_treat": "Miner's Treat",
+    "item.greenery.fishing_net": "Fishing Net",
+    "item.greenery.worm": "Worm"
 }

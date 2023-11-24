@@ -1,0 +1,14 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "greenery:block/fishing_net"
+        }
+      }
+    },
+    "rewards": {
+      "function": "greenery:recipes/block/fishing_net"
+    }
+  }
+  

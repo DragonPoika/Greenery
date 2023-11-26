@@ -1,49 +1,56 @@
 {
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:structure_void",
-            "functions": [
-              {
-                "function": "minecraft:set_name",
-                "name": {
-                  "translate": "item.greenery.butterfly",
-                  "italic": false,
-                  "fallback": "Butterfly"
-                }
-              },
-              {
-                  "function": "minecraft:set_lore",
-                  "lore": [
-                    [
-                      {
-                        "translate": "lore.greenery.tooltip",
-                        "color": "white",
-                        "font": "greenery:tooltip",
-                        "italic": false
-                      },
-                      {
-                        "text": " "
-                      },
-                      {
-                        "translate": "pack.greenery",
-                        "font": "minecraft:default",
-                        "color": "green"
-                      }
-                    ]
-                  ]
-              },
-              {
-                  "function": "minecraft:set_nbt",
-                  "tag": "{greenery:[{id:\"butterfly\"}],CustomModelData:795001}"
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_void",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.greenery.butterfly",
+                "fallback": "%s Butterfly",
+                "with": [
+                  {
+                    "translate": "item.greenery.butterfly.morpho",
+                    "fallback": "Morpho",
+                    "color": "white",
+                    "italic": false
+                  }
+                ],
+                "italic": false
               }
-            ]
-          }
-        ]
-      }
-    ]
-  }
-  
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                [
+                  {
+                    "translate": "lore.greenery.tooltip",
+                    "color": "white",
+                    "font": "greenery:tooltip",
+                    "italic": false
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "translate": "pack.greenery",
+                    "color": "green",
+                    "font": "minecraft:default"
+                  }
+                ]
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{greenery:[{id:\"butterfly\"}],CustomModelData:795001}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

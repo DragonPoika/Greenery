@@ -5,6 +5,7 @@
   },
 	
 	"overrides": [
-		{"predicate": {"custom_model_data":795000}, "model": "greenery:item/miners_treat"}
+		{"predicate": {"custom_model_data":795000}, "model": "greenery:item/miners_treat"},
+    {"predicate": {"custom_model_data":795001}, "model": "greenery:item/bee_pop"}
 	]
 }

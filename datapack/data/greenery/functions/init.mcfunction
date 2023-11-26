@@ -9,3 +9,6 @@ scoreboard objectives add greenery.mined_nether_wart minecraft.mined:minecraft.n
 scoreboard objectives add greenery.fishnet_cd dummy
 scoreboard objectives add greenery.block_hit dummy
 scoreboard objectives add greenery.block_hit_cd dummy
+
+scoreboard objectives add greenery.raytemp dummy
+scoreboard objectives add greenery.wfoas minecraft.used:minecraft.warped_fungus_on_a_stick

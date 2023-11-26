@@ -18,5 +18,10 @@
     "item.greenery.fishing_net": "Fishing Net",
     "item.greenery.worm": "Worm",
     "item.greenery.butterfly_net": "Butterfly Net",
-    "item.greenery.bee_pop": "Bee Pop"
+    "item.greenery.bee_pop": "Bee Pop",
+
+    "item.greenery.butterfly": "%s Butterfly",
+    "item.greenery.butterfly.monarch": "Monarch",
+    "item.greenery.butterfly.morpho": "Morpho",
+    "item.greenery.butterfly.brimstone": "Brimstone"
 }

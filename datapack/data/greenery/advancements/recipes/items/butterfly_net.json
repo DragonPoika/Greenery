@@ -1,0 +1,14 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "greenery:items/butterfly_net"
+        }
+      }
+    },
+    "rewards": {
+      "function": "greenery:recipes/items/bee_pop"
+    }
+  }
+  

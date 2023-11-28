@@ -10,7 +10,7 @@ function greenery:raycast/ray
 
 #Running custom post-raycast commands.
 
-execute if entity @e[type=minecraft:bee,limit=1,sort=nearest,tag=greenery.butterfly] run function greenery:drop_butterfly
+execute if entity @e[type=minecraft:bee,limit=1,sort=nearest,tag=greenery.butterfly] run say Dropping Butterfly :3
 
 #Raycasting finished, removing tag from the raycaster.
 

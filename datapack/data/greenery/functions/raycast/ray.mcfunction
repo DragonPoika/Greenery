@@ -4,7 +4,7 @@ execute if score #greenery.hit greenery.raytemp matches 0 positioned ~-0.05 ~-0.
 
 #Run a function if a block was successfully detected.
 
-execute unless block ~ ~ ~ #greenery:raycast/blocks run function greenery:raycast/hit_block
+execute unless block ~ ~ ~ #greenery:raycast_blocks run function greenery:raycast/hit_block
 scoreboard players add #greenery.distance greenery.raytemp 1
 
 #Advance forward and run the ray again if no entity and/or block was found.

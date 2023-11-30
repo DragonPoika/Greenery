@@ -12,3 +12,4 @@ scoreboard objectives add greenery.block_hit_cd dummy
 
 scoreboard objectives add greenery.raytemp dummy
 scoreboard objectives add greenery.wfoas minecraft.used:minecraft.warped_fungus_on_a_stick
+scoreboard objectives add greenery.butterfly_random dummy

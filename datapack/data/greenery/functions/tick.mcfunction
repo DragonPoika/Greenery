@@ -8,6 +8,7 @@ execute as @a[scores={greenery.wfoas=0..}] at @s run function greenery:warped_fu
 #Ticking Functions
     #Entities
         execute as @e[type=marker,tag=greenery.fishnet] at @s run function greenery:fishing_net/tick
+        execute as @e[type=villager,tag=greenery.beekeeper] at @s run function greenery:entities/beekeeper/tick
 
 execute as @e[type=bee,tag=!greenery.checked] at @s run function greenery:butterfly/check
 

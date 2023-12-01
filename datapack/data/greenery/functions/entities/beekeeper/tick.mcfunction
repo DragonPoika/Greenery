@@ -1,0 +1,2 @@
+item replace entity @s weapon.mainhand with leather_horse_armor{CustomModelData:795001}
+data merge entity @s {Brain:{memories:{"minecraft:job_site":{value:{pos:[I;-7,73,-10],dimension:"minecraft:overworld"}}}}}

@@ -8,7 +8,7 @@
       }
     },
     "rewards": {
-      "function": "greenery:recipes/items/bee_pop"
+      "function": "greenery:recipes/items/butterfly_net"
     }
   }
   

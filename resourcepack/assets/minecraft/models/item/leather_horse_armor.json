@@ -9,6 +9,8 @@
           {"predicate": {"custom_model_data":795101}, "model": "greenery:entity/butterfly/morpho"},
           {"predicate": {"custom_model_data":795102}, "model": "greenery:entity/butterfly/brimstone"},
           {"predicate": {"custom_model_data":795001}, "model": "greenery:entity/beekeeper/normal_body"},
-          {"predicate": {"custom_model_data":795002}, "model": "greenery:entity/beekeeper/normal_head"}
+          {"predicate": {"custom_model_data":795002}, "model": "greenery:entity/beekeeper/normal_head"},
+          {"predicate": {"custom_model_data":795003}, "model": "greenery:block/butterfly_jar/empty"},
+          {"predicate": {"custom_model_data":795004}, "model": "greenery:block/butterfly_jar/butterfly"}
       ]
   }

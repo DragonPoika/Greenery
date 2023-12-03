@@ -1,0 +1,35 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:furnace",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:795000,display:{Name:'{\"text\":\"Display Case\",\"italic\":false}'}}"
+            },
+            {
+              "function": "minecraft:set_contents",
+              "type": "minecraft:furnace",
+              "entries": [
+                {
+                  "type": "minecraft:item",
+                  "name": "minecraft:furnace",
+                  "functions": [
+                    {
+                      "function": "minecraft:set_nbt",
+                      "tag": "{greenery_block:\"display_case\",CustomModelData:795000,display:{Name:'{\"text\":\"Display Case\",\"italic\":false}'}}"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

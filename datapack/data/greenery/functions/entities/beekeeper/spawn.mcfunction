@@ -1,1 +1,1 @@
-summon villager ~ ~ ~ {Tags:["greenery.beekeeper"],HandItems:[{id:"minecraft:leather_horse_armor",Count:1b,tag:{CustomModelData:795001}},{}],ArmorItems:[{},{},{},{id:"minecraft:leather_horse_armor",Count:1b,tag:{CustomModelData:795002}}]}
+execute summon villager at @s run function greenery:entities/beekeeper/add_initial_tags

@@ -1,0 +1,11 @@
+{
+	"parent": "minecraft:block/furnace",
+	  
+	  "overrides": [
+		{"predicate": {"custom_model_data": 795000}, "model": "greenery:block/display_case/empty"},
+		{"predicate": {"custom_model_data": 795001}, "model": "greenery:block/display_case/1"},
+		{"predicate": {"custom_model_data": 795002}, "model": "greenery:block/display_case/2"},
+		{"predicate": {"custom_model_data": 795003}, "model": "greenery:block/display_case/3"},
+		{"predicate": {"custom_model_data": 795004}, "model": "greenery:block/display_case/full"}
+	  ]
+  }

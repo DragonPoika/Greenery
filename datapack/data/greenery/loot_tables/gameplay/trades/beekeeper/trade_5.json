@@ -19,8 +19,8 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:loot_table",
-          "name": "greenery:gameplay/trades/beekeeper/random_sapling"
+          "type": "minecraft:tag",
+          "name": "minecraft:flowers"
         }
       ]
     }

@@ -1,0 +1,49 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:flower_pot",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "translate": "item.greenery.hanging_flower_pot",
+                  "italic": false,
+                  "fallback": "Hanging Flower Pot"
+                }
+              },
+              {
+                  "function": "minecraft:set_lore",
+                  "lore": [
+                    [
+                      {
+                        "translate": "lore.greenery.tooltip",
+                        "color": "white",
+                        "font": "greenery:tooltip",
+                        "italic": false
+                      },
+                      {
+                        "text": " "
+                      },
+                      {
+                        "translate": "pack.greenery",
+                        "font": "minecraft:default",
+                        "color": "green"
+                      }
+                    ]
+                  ]
+              },
+              {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{greenery:[{id:\"hanging_flower_pot\"}],CustomModelData:795000}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

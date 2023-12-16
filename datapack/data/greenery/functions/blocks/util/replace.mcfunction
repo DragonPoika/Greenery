@@ -9,4 +9,8 @@ execute as @e[type=item_display,tag=greenery.new_block,limit=1,sort=nearest] run
 execute as @e[type=interaction,tag=greenery.new_block,limit=1,sort=nearest] run function greenery:blocks/util/add_tag with block ~ ~ ~ Items[0].tag
 execute as @e[type=marker,tag=greenery.new_block,limit=1,sort=nearest] run function greenery:blocks/display_case/placed
 execute as @e[type=marker,tag=greenery.new_block,limit=1,sort=nearest] run function greenery:blocks/util/add_tag with block ~ ~ ~ Items[0].tag
+execute if predicate greenery:is_sneaking as @e[type=item_display,tag=greenery.display_case,limit=1,sort=nearest] at @s unless block ^ ^ ^1 air run tag @s add gree.display_case.re_place
+execute as @e[type=item_display,tag=greenery.display_case,tag=gree.display_case.re_place,limit=1,sort=nearest] run data modify entity @s transformation.translation[1] set value 0.2f
+execute as @e[type=item_display,tag=greenery.display_case,tag=gree.display_case.re_place,limit=1,sort=nearest] run data modify entity @s Rotation[1] set value -45.0f
+execute as @e[type=item_display,tag=greenery.display_case,tag=gree.display_case.re_place,limit=1,sort=nearest] run tag @s remove gree.display_case.re_place
 setblock ~ ~ ~ barrier

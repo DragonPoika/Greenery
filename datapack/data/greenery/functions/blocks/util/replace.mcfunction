@@ -4,5 +4,6 @@ summon marker ~ ~ ~ {Tags:["greenery.block","greenery.new_block"]}
 data modify entity @e[type=item_display,tag=greenery.new_block,limit=1,sort=nearest] item set from block ~ ~ ~ Items[0]
 execute as @e[type=item_display,tag=greenery.new_block,limit=1,sort=nearest] run function greenery:blocks/util/add_tag with block ~ ~ ~ Items[0].tag
 execute as @e[type=interaction,tag=greenery.new_block,limit=1,sort=nearest] run function greenery:blocks/util/add_tag with block ~ ~ ~ Items[0].tag
+execute as @e[type=marker,tag=greenery.new_block,limit=1,sort=nearest] run function greenery:blocks/display_case/placed
 execute as @e[type=marker,tag=greenery.new_block,limit=1,sort=nearest] run function greenery:blocks/util/add_tag with block ~ ~ ~ Items[0].tag
 setblock ~ ~ ~ barrier

@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:795000,display:{Name:'{\"text\":\"Display Case\",\"italic\":false}'}}"
+              "tag": "{case_content:[],CustomModelData:795000,display:{Name:'{\"text\":\"Display Case\",\"italic\":false}'}}"
             },
             {
               "function": "minecraft:set_contents",
@@ -21,7 +21,7 @@
                   "functions": [
                     {
                       "function": "minecraft:set_nbt",
-                      "tag": "{greenery_block:\"display_case\",CustomModelData:795000,display:{Name:'{\"text\":\"Display Case\",\"italic\":false}'}}"
+                      "tag": "{case_content:[],greenery_block:\"display_case\",CustomModelData:795000,display:{Name:'{\"text\":\"Display Case\",\"italic\":false}'}}"
                     }
                   ]
                 }

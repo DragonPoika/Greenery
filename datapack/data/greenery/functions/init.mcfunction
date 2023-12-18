@@ -7,6 +7,7 @@ scoreboard objectives add greenery.mined_beetroots minecraft.mined:minecraft.bee
 scoreboard objectives add greenery.mined_nether_wart minecraft.mined:minecraft.nether_wart
 
 scoreboard objectives add greenery.fishnet_cd dummy
+scoreboard objectives add greenery.cmd dummy
 scoreboard objectives add greenery.block_hit dummy
 scoreboard objectives add greenery.block_hit_cd dummy
 

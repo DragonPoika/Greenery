@@ -1,0 +1,1 @@
+data modify entity @s data.jar_content set from entity @e[type=item_display,tag=greenery.butterfly_jar,limit=1,sort=nearest] item.tag.jar_content

@@ -17,7 +17,7 @@
                   "functions": [
                     {
                       "function": "minecraft:set_nbt",
-                      "tag": "{greenery_block: \"hanging_flower_pot\",greenery: [{id: \"hanging_flower_pot\"}], CustomModelData: 795005, BlockEntityTag: {Items: [{Slot: 0b, id: \"minecraft:furnace\", Count: 1b, tag: {CustomModelData: 795005, greenery_block: \"hanging_flower_pot\"}}], id: \"minecraft:furnace\"}, display: {Lore: ['{\"italic\":false,\"color\":\"white\",\"font\":\"greenery:tooltip\",\"extra\":[{\"text\":\" \"},{\"color\":\"green\",\"font\":\"minecraft:default\",\"translate\":\"pack.greenery\"}],\"translate\":\"lore.greenery.tooltip\"}'], Name: '{\"italic\":false,\"translate\":\"item.greenery.hanging_flower_pot\",\"fallback\":\"Hanging Flower Pot\"}'}}"
+                      "tag": "{jar_content:[],greenery_block: \"butterfly_jar\",greenery: [{id: \"butterfly_jar\"}], CustomModelData: 795007, BlockEntityTag: {Items: [{Slot: 0b, id: \"minecraft:furnace\", Count: 1b, tag: {jar_content:[],CustomModelData: 795007, greenery_block: \"butterfly_jar\"}}], id: \"minecraft:furnace\"}, display: {Lore: ['{\"italic\":false,\"color\":\"white\",\"font\":\"greenery:tooltip\",\"extra\":[{\"text\":\" \"},{\"color\":\"green\",\"font\":\"minecraft:default\",\"translate\":\"pack.greenery\"}],\"translate\":\"lore.greenery.tooltip\"}'], Name: '{\"italic\":false,\"translate\":\"item.greenery.butterfly_jar\",\"fallback\":\"Butterfly Jar\"}'}}"
                     }
                   ]
                 }
@@ -26,8 +26,8 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate": "item.greenery.hanging_flower_pot",
-                "fallback": "Hanging Flower Pot",
+                "translate": "item.greenery.butterfly_jar",
+                "fallback": "Butterfly Jar",
                 "italic": false
               }
             },
@@ -54,7 +54,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{greenery:[{id:\"hanging_flower_pot\"}],CustomModelData:795005}"
+              "tag": "{jar_content:[],greenery:[{id:\"butterfly_jar\"}],CustomModelData:795007}"
             }
           ]
         }

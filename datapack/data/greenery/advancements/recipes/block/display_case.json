@@ -1,0 +1,14 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "greenery:block/display_case"
+        }
+      }
+    },
+    "rewards": {
+      "function": "greenery:recipes/block/butterfly_jar"
+    }
+  }
+  

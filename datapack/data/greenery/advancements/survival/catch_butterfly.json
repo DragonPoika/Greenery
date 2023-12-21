@@ -1,0 +1,23 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:jigsaw",
+        "nbt": "{CustomModelData:795000}"
+      },
+      "title": {
+        "translate": "advancement.greenery.catch_butterfly",
+        "fallback": "Catch any Butterfly!"
+      },
+      "description": {
+        "translate": "advancement.greenery.catch_butterfly.description",
+        "fallback": "Catch any Butterfly"
+      }
+    },
+    "parent": "greenery:survival/join_first_time",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

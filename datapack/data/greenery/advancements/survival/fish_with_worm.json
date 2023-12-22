@@ -9,7 +9,7 @@
         "fallback": "They took the bait"
       },
       "description": {
-        "translate": "advancement.greenery.fish_with_worm",
+        "translate": "advancement.greenery.fish_with_worm.description",
         "fallback": "Fish with a worm in your offhand"
       }
     },

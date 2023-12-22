@@ -23,7 +23,7 @@
       "translate": "advancement.greenery.join_first_time",
       "fallback": "Download Greenery"
     },
-    "background": "minecraft:blocks/farmland"
+    "background": "minecraft:textures/block/farmland.png"
   },
   "criteria": {
     "requirement": {

@@ -11,6 +11,7 @@
 		{"predicate": {"custom_model_data": 795006}, "model": "greenery:block/hanging_flower_pot"},
 		{"predicate": {"custom_model_data": 795007}, "model": "greenery:block/butterfly_jar/empty"},
 		{"predicate": {"custom_model_data": 795008}, "model": "greenery:block/butterfly_jar/butterfly"},
-		{"predicate": {"custom_model_data": 795009}, "model": "greenery:block/terrarium/terrarium"}
+		{"predicate": {"custom_model_data": 795009}, "model": "greenery:block/terrarium/terrarium"},
+		{"predicate": {"custom_model_data": 795010}, "model": "greenery:item/fishing_net"}
 	  ]
   }

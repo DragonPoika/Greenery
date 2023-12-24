@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:pitcher_plant"
+    },
+    "title": [
+      {
+        "translate": "lore.greenery.tooltip",
+        "color": "white",
+        "font": "greenery:tooltip",
+        "italic": false
+      },
+      {
+        "text": " "
+      },
+      {
+        "translate": "pack.greenery",
+        "color": "green",
+        "font": "minecraft:default"
+      }
+    ],
+    "description": {
+      "translate": "advancement.greenery.join_first_time",
+      "fallback": "Download Greenery"
+    },
+    "background": "minecraft:textures/block/farmland.png"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "rewards": {
+    "function": "greenery:joined_first_time"
+  }
+}

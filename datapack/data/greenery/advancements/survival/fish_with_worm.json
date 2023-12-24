@@ -1,0 +1,23 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:cookie",
+        "nbt": "{CustomModelData:795003}"
+      },
+      "title": {
+        "translate": "advancement.greenery.fish_with_worm",
+        "fallback": "They took the bait"
+      },
+      "description": {
+        "translate": "advancement.greenery.fish_with_worm.description",
+        "fallback": "Fish with a worm in your offhand"
+      }
+    },
+    "parent": "greenery:survival/join_first_time",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

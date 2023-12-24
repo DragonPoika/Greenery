@@ -23,5 +23,13 @@
     "item.greenery.butterfly": "%s Butterfly",
     "item.greenery.butterfly.monarch": "Monarch",
     "item.greenery.butterfly.morpho": "Morpho",
-    "item.greenery.butterfly.brimstone": "Brimstone"
+    "item.greenery.butterfly.brimstone": "Brimstone",
+
+    "advancement.greenery.join_first_time": "Greenery is an extensive datapack that adds a lot of farming and fishing related features!",
+    "advancement.greenery.fish_with_worm": "They took the bait",
+    "advancement.greenery.fish_with_worm.description": "Fish with a worm in your offhand",
+    "advancement.greenery.catch_morpho": "Discover Your Life Potential",
+    "advancement.greenery.catch_morpho.description": "Catch a Morpho butterfly",
+    "advancement.greenery.catch_butterfly": "Catch a Butterfly",
+    "advancement.greenery.catch_butterfly.description": "Catch a butterfly"
 }

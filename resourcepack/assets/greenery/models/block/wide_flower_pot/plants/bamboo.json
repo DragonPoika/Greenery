@@ -2,7 +2,8 @@
 	"credit": "Made in Blockbench by ToastedDragon",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "greenery:block/wide_flower_pot/base"
+		"0": "greenery:block/wide_flower_pot",
+		"particle": "greenery:block/wide_flower_pot"
 	},
 	"elements": [
 		{

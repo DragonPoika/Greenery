@@ -1,52 +1,35 @@
 {
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:bee_spawn_egg",
-            "functions": [
-              {
-                "function": "minecraft:set_lore",
-                "lore": [
-                    [
-                        {
-                          "translate": "lore.greenery.tooltip",
-                          "color": "white",
-                          "font": "greenery:tooltip",
-                          "italic": false
-                        },
-                        {
-                          "text": " "
-                        },
-                        {
-                          "translate": "pack.greenery",
-                          "font": "minecraft:default",
-                          "color": "green"
-                        }
-                      ]
-                ]
-              },
-              {
-                "function": "minecraft:set_name",
-                "name": {
-                  "translate": "block.greenery.fising_net",
-                  "fallback": "Fishing Net",
-                  "italic": false
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:furnace",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:795010,display:{Name:'{\"text\":\"Fishing Net\",\"italic\":false}'}}"
+            },
+            {
+              "function": "minecraft:set_contents",
+              "type": "minecraft:furnace",
+              "entries": [
+                {
+                  "type": "minecraft:item",
+                  "name": "minecraft:furnace",
+                  "functions": [
+                    {
+                      "function": "minecraft:set_nbt",
+                      "tag": "{greenery_block:\"fishing_net\",CustomModelData:795010,display:{Name:'{\"text\":\"Fishing Net\",\"italic\":false}'}}"
+                    }
+                  ]
                 }
-              },
-              {
-                "function": "minecraft:set_count",
-                "count": 1
-              },
-              {
-                "function": "minecraft:set_nbt",
-                "tag": "{CustomModelData:795000,EntityTag:{id:\"minecraft:marker\",Tags:[\"greenery.fishnet\"]}}"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-}  
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

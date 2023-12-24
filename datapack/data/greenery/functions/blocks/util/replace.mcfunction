@@ -8,6 +8,7 @@ execute as @e[type=item_display,tag=greenery.display_case,tag=greenery.new_block
 execute as @e[type=item_display,tag=greenery.display_case,tag=greenery.new_block,limit=1,sort=nearest] run summon marker ~ ~ ~ {Tags:["greenery.block","greenery.new_block"]}
 execute as @e[type=item_display,tag=greenery.butterfly_jar,tag=greenery.new_block,limit=1,sort=nearest] run summon interaction ~ ~-0.5 ~ {Tags:["greenery.block","greenery.new_block"],height:1.01,width:1.01}
 execute as @e[type=item_display,tag=greenery.butterfly_jar,tag=greenery.new_block,limit=1,sort=nearest] run summon marker ~ ~ ~ {Tags:["greenery.block","greenery.new_block"]}
+execute as @e[type=item_display,tag=greenery.fishing_net,tag=greenery.new_block,limit=1,sort=nearest] run summon interaction ~ ~-0.5 ~ {Tags:["greenery.block","greenery.new_block"],height:1.01,width:1.01}
 execute if predicate greenery:is_sneaking as @e[type=item_display,tag=greenery.display_case,tag=greenery.new_block,limit=1,sort=nearest] at @s unless block ^ ^ ^1 air run tag @s add gree.display_case.re_place
 execute as @e[type=item_display,tag=greenery.display_case,tag=greenery.new_block,tag=gree.display_case.re_place,limit=1,sort=nearest] run data modify entity @s transformation.translation[1] set value 0.2f
 execute as @e[type=item_display,tag=greenery.display_case,tag=greenery.new_block,tag=gree.display_case.re_place,limit=1,sort=nearest] run data modify entity @s Rotation[1] set value -45.0f
@@ -18,6 +19,7 @@ execute as @e[type=marker,tag=greenery.display_case,tag=greenery.new_block,limit
 execute as @e[type=marker,tag=greenery.butterfly_jar,tag=greenery.new_block,limit=1,sort=nearest] run function greenery:blocks/butterfly_jar/placed
 execute as @e[type=item_display,tag=greenery.display_case,tag=greenery.new_block,limit=1,sort=nearest] run setblock ~ ~ ~ barrier
 execute as @e[type=item_display,tag=greenery.butterfly_jar,tag=greenery.new_block,limit=1,sort=nearest] run setblock ~ ~ ~ barrier
+execute as @e[type=item_display,tag=greenery.fishing_net,tag=greenery.new_block,limit=1,sort=nearest] run setblock ~ ~ ~ barrier
 
 execute as @e[type=item_display,tag=greenery.hanging_flower_pot,tag=greenery.new_block,limit=1,sort=nearest] store result score @s greenery.cmd run data get entity @s item.tag.CustomModelData
 scoreboard players add @e[type=item_display,tag=greenery.hanging_flower_pot,tag=greenery.new_block,limit=1,sort=nearest] greenery.cmd 1

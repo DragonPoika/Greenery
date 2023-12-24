@@ -5,7 +5,7 @@
         "conditions": {
           "item": {
             "items": [
-              "minecraft:cooked_chicken"
+              "minecraft:carrot"
             ],
             "nbt": "{greenery:[{id:\"cave_carrot\"}]}"
           }

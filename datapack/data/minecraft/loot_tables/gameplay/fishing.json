@@ -53,6 +53,18 @@
         ]
       }
     ],
-    "random_sequence": "minecraft:gameplay/fishing"
+    "random_sequence": "minecraft:gameplay/fishing",
+    "__smithed__": {
+      "rules": [
+        {
+          "type": "weld:append",
+          "target": "pools",
+          "source": {
+            "type": "weld:reference",
+            "path": "pools[0]"
+          }
+        }
+      ]
+    }
   }
   

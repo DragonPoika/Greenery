@@ -6,6 +6,7 @@ data modify entity @e[type=item_display,tag=greenery.new_block,limit=1,sort=near
 execute as @e[type=item_display,tag=greenery.new_block,limit=1,sort=nearest] run function greenery:blocks/util/add_tag with block ~ ~ ~ Items[0].tag
 execute as @e[type=item_display,tag=greenery.display_case,tag=greenery.new_block,limit=1,sort=nearest] run summon interaction ~ ~-0.5 ~ {Tags:["greenery.block","greenery.new_block"],height:1.01,width:1.01}
 execute as @e[type=item_display,tag=greenery.display_case,tag=greenery.new_block,limit=1,sort=nearest] run summon marker ~ ~ ~ {Tags:["greenery.block","greenery.new_block"]}
+execute as @e[type=item_display,tag=greenery.butterfly_jar,tag=greenery.new_block,limit=1,sort=nearest] run data merge entity @s {Rotation:[180.0f,0f],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-0.1875f,0f,-0.1875f],scale:[1f,1f,1f]}}
 execute as @e[type=item_display,tag=greenery.butterfly_jar,tag=greenery.new_block,limit=1,sort=nearest] run summon interaction ~ ~-0.5 ~ {Tags:["greenery.block","greenery.new_block"],height:1.01,width:1.01}
 execute as @e[type=item_display,tag=greenery.butterfly_jar,tag=greenery.new_block,limit=1,sort=nearest] run summon marker ~ ~ ~ {Tags:["greenery.block","greenery.new_block"]}
 execute as @e[type=item_display,tag=greenery.fishing_net,tag=greenery.new_block,limit=1,sort=nearest] run summon interaction ~ ~-0.5 ~ {Tags:["greenery.block","greenery.new_block"],height:1.01,width:1.01}

@@ -1,0 +1,3 @@
+execute as @e[type=villager,distance=..2,nbt={VillagerData:{profession:"minecraft:fletcher"},Xp:0},tag=!greenery.beekeeper,sort=nearest,limit=1] if data entity @s Brain.memories."minecraft:job_site" run tag @s add greenery.check_villager
+execute if entity @e[type=villager,distance=..2,nbt={VillagerData:{profession:"minecraft:fletcher"},Xp:0},tag=!greenery.beekeeper,sort=nearest,limit=1] if data entity @e[type=villager,distance=..2,nbt={VillagerData:{profession:"minecraft:fletcher"},Xp:0},tag=!greenery.beekeeper,limit=1,sort=nearest] Brain.memories."minecraft:job_site" run function greenery:blocks/beehive/check_villager
+tag @e[tag=greenery.check_villager] remove greenery.check_villager

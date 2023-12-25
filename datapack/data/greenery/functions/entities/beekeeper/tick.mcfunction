@@ -1,6 +1,6 @@
 item replace entity @s weapon.mainhand with leather_horse_armor{CustomModelData:795001}
 item replace entity @s armor.head with leather_horse_armor{CustomModelData:795002}
-data merge entity @s {Brain:{memories:{"minecraft:job_site":{value:{pos:[I;-7,73,-10],dimension:"minecraft:overworld"}}}}}
+# data merge entity @s {Brain:{memories:{"minecraft:job_site":{value:{pos:[I;-7,73,-10],dimension:"minecraft:overworld"}}}}}
 
 # Leveling up
 execute if entity @s[nbt={VillagerData:{level:2}},tag=!greenery.beekeeper.level_2] run function greenery:entities/beekeeper/level_up/2

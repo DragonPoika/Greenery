@@ -21,6 +21,7 @@ execute as @e[type=marker,tag=greenery.butterfly_jar,tag=greenery.new_block,limi
 execute as @e[type=item_display,tag=greenery.display_case,tag=greenery.new_block,limit=1,sort=nearest] run setblock ~ ~ ~ barrier
 execute as @e[type=item_display,tag=greenery.butterfly_jar,tag=greenery.new_block,limit=1,sort=nearest] run setblock ~ ~ ~ barrier
 execute as @e[type=item_display,tag=greenery.fishing_net,tag=greenery.new_block,limit=1,sort=nearest] run setblock ~ ~ ~ barrier
+execute as @e[type=item_display,tag=greenery.beehive,tag=greenery.new_block,limit=1,sort=nearest] run setblock ~ ~ ~ fletching_table
 
 execute as @e[type=item_display,tag=greenery.hanging_flower_pot,tag=greenery.new_block,limit=1,sort=nearest] store result score @s greenery.cmd run data get entity @s item.tag.CustomModelData
 scoreboard players add @e[type=item_display,tag=greenery.hanging_flower_pot,tag=greenery.new_block,limit=1,sort=nearest] greenery.cmd 1

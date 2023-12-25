@@ -20,11 +20,13 @@
       "entries": [
         {
           "type": "minecraft:tag",
-          "name": "minecraft:saplings"
+          "name": "minecraft:saplings",
+          "expand": true
         },
         {
           "type": "minecraft:tag",
-          "name": "minecraft:flowers"
+          "name": "minecraft:flowers",
+          "expand": true
         },
         {
           "type": "minecraft:item",
@@ -60,7 +62,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:grass"
+          "name": "minecraft:short_grass"
         },
         {
           "type": "minecraft:item",

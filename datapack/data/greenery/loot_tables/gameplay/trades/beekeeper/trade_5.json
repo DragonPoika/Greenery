@@ -20,7 +20,8 @@
       "entries": [
         {
           "type": "minecraft:tag",
-          "name": "minecraft:flowers"
+          "name": "minecraft:flowers",
+          "expand": true
         }
       ]
     }

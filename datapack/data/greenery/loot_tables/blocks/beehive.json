@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:795012,display:{Name:'{\"text\":\"Beehive\",\"italic\":false}'}}"
+              "tag": "{CustomModelData:795011,display:{Name:'{\"text\":\"Beehive\",\"italic\":false}'}}"
             },
             {
               "function": "minecraft:set_contents",
@@ -21,7 +21,7 @@
                   "functions": [
                     {
                       "function": "minecraft:set_nbt",
-                      "tag": "{greenery_block:\"beehive\",CustomModelData:795012,display:{Name:'{\"text\":\"Beehive\",\"italic\":false}'}}"
+                      "tag": "{greenery_block:\"beehive\",CustomModelData:795011,display:{Name:'{\"text\":\"Beehive\",\"italic\":false}'}}"
                     }
                   ]
                 }

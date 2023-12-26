@@ -12,6 +12,7 @@
 		{"predicate": {"custom_model_data": 795007}, "model": "greenery:block/butterfly_jar/empty"},
 		{"predicate": {"custom_model_data": 795008}, "model": "greenery:block/butterfly_jar/butterfly"},
 		{"predicate": {"custom_model_data": 795009}, "model": "greenery:block/terrarium/terrarium"},
-		{"predicate": {"custom_model_data": 795010}, "model": "greenery:item/fishing_net"}
+		{"predicate": {"custom_model_data": 795010}, "model": "greenery:item/fishing_net"},
+		{"predicate": {"custom_model_data": 795011}, "model": "greenery:block/wide_flower_pot/base"}
 	  ]
   }

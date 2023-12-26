@@ -13,5 +13,6 @@ execute as @a[scores={greenery.wfoas=0..}] at @s run function greenery:warped_fu
         execute as @e[type=item_display,tag=greenery.beehive] at @s unless block ~ ~ ~ minecraft:fletching_table run function greenery:blocks/beehive/break
         execute as @e[type=item_display,tag=greenery.beehive] at @s run function greenery:blocks/beehive/tick
         execute as @e[type=item_display,tag=greenery.hanging_flower_pot] at @s unless block ~ ~ ~ #minecraft:flower_pots run function greenery:blocks/hanging_flower_pot/break
+        execute as @e[type=interaction,tag=greenery.wide_flower_pot] at @s run function greenery:blocks/wide_flower_pot/tick
 
 scoreboard players reset @a greenery.wfoas

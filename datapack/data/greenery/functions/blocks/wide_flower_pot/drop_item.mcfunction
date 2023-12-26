@@ -1,0 +1,2 @@
+summon item ~ ~ ~ {Tags:["greenery.wfp_drop"],Item:{id:"minecraft:stone",Count:1b},PickupDelay:10s}
+data modify entity @e[type=item,tag=greenery.wfp_drop,limit=1,sort=nearest] Item set from entity @e[type=marker,tag=greenery.wide_flower_pot,limit=1,sort=nearest] data

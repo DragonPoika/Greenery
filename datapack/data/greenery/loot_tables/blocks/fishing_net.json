@@ -8,10 +8,6 @@
           "name": "minecraft:furnace",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:795010,display:{Name:'{\"text\":\"Fishing Net\",\"italic\":false}'}}"
-            },
-            {
               "function": "minecraft:set_contents",
               "type": "minecraft:furnace",
               "entries": [
@@ -21,11 +17,44 @@
                   "functions": [
                     {
                       "function": "minecraft:set_nbt",
-                      "tag": "{greenery_block:\"fishing_net\",CustomModelData:795010,display:{Name:'{\"text\":\"Fishing Net\",\"italic\":false}'}}"
+                      "tag": "{greenery_block: \"fishing_net\",greenery: [{id: \"fishing_net\"}], CustomModelData: 795010, BlockEntityTag: {Items: [{Slot: 0b, id: \"minecraft:furnace\", Count: 1b, tag: {CustomModelData: 795010, greenery_block: \"fishing_net\"}}], id: \"minecraft:furnace\"}, display: {Lore: ['{\"italic\":false,\"color\":\"white\",\"font\":\"greenery:tooltip\",\"extra\":[{\"text\":\" \"},{\"color\":\"green\",\"font\":\"minecraft:default\",\"translate\":\"pack.greenery\"}],\"translate\":\"lore.greenery.tooltip\"}'], Name: '{\"italic\":false,\"translate\":\"item.greenery.fishing_net\",\"fallback\":\"Fishing Net\"}'}}"
                     }
                   ]
                 }
               ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.greenery.fishing_net",
+                "fallback": "Fishing Net",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                [
+                  {
+                    "translate": "lore.greenery.tooltip",
+                    "color": "white",
+                    "font": "greenery:tooltip",
+                    "italic": false
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "translate": "pack.greenery",
+                    "color": "green",
+                    "font": "minecraft:default"
+                  }
+                ]
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{greenery:[{id:\"fishing_net\"}],CustomModelData:795010}"
             }
           ]
         }

@@ -5,7 +5,7 @@
         "conditions": {
           "item": {
             "items": [
-              "minecraft:azalea_bush"
+              "minecraft:orange_tulip"
             ]
           },
           "entity": [
@@ -36,6 +36,6 @@
       }
     },
     "rewards": {
-      "function": "greenery:blocks/wide_flower_pot/put_in/azalea_bush"
+      "function": "greenery:blocks/wide_flower_pot/put_in/orange_tulip"
     }
 }  

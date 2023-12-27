@@ -1,6 +1,6 @@
 {
-	"parent": "greenery:block/wide_flower_pot/plants/template_flowers",
+	"parent": "greenery:block/wide_flower_pot/plants/template_sapling",
 	"textures": {
-	  "plant": "greenery:block/wide_flower_pot/plants/cornflower"
+	  "plant": "greenery:block/wide_flower_pot/plants/spruce_sapling"
 	}
   }

@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable_with_bottom",
+  "textures": {
+    "bottom": "greenery:block/beehive/beehive_bottom",
+    "front": "greenery:block/beehive/beehive_front",
+    "side": "greenery:block/beehive/beehive_side",
+    "top": "greenery:block/beehive/beehive_top"
+  }
+}

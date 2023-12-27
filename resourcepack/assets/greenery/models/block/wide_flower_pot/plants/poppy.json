@@ -1,6 +1,6 @@
 {
 	"parent": "greenery:block/wide_flower_pot/plants/template_flowers",
 	"textures": {
-	  "plant": "greenery:block/wide_flower_pot/plants/cornflower"
+	  "plant": "greenery:block/wide_flower_pot/plants/poppy"
 	}
   }

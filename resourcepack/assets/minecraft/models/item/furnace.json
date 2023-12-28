@@ -24,6 +24,7 @@
 		{"predicate": {"custom_model_data": 795019}, "model": "greenery:block/wide_flower_pot/plants/blue_orchid"},
 		{"predicate": {"custom_model_data": 795020}, "model": "greenery:block/wide_flower_pot/plants/brown_mushroom"},
 		{"predicate": {"custom_model_data": 795021}, "model": "greenery:block/wide_flower_pot/plants/cactus"},
+		{"predicate": {"custom_model_data": 795045}, "model": "greenery:block/wide_flower_pot/plants/cherry_sapling"},
 		{"predicate": {"custom_model_data": 795022}, "model": "greenery:block/wide_flower_pot/plants/cornflower"},
 		{"predicate": {"custom_model_data": 795023}, "model": "greenery:block/wide_flower_pot/plants/crimson_fungus"},
 		{"predicate": {"custom_model_data": 795024}, "model": "greenery:block/wide_flower_pot/plants/crimson_roots"},

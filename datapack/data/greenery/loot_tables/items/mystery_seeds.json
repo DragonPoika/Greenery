@@ -1,0 +1,48 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:armor_stand",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "translate": "item.greenery.mystery_seeds",
+                  "italic": false,
+                  "fallback": "Mystery Seeds"
+                }
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  [
+                    {
+                      "translate": "lore.greenery.tooltip",
+                      "color": "white",
+                      "font": "greenery:tooltip",
+                      "italic": false
+                    },
+                    {
+                      "text": " "
+                    },
+                    {
+                      "translate": "pack.greenery",
+                      "font": "minecraft:default",
+                      "color": "green"
+                    }
+                  ]
+                ]
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{EntityTag:{Small:1b,Tags:[\"greenery.mystery_seeds\"]},CustomModelData:795000}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

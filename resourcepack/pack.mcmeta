@@ -1,10 +1,6 @@
 {
-  "pack": {
-    "pack_format": 12,
-    "supported_formats":{
-      "min_inclusive": 12,
-      "max_inclusive": 21
-    },
-    "description": "\n"
-  }
+    "pack": {
+        "pack_format": 22,
+        "description": {"text":"Adds farming and fishing related features","color": "green"}
+    }
 }

@@ -1,0 +1,19 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": [
+              "minecraft:cooked_chicken"
+            ],
+            "nbt": "{greenery:[{id:\"poison_pop\"}]}"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "greenery:items/consume_item/poison_pop"
+    }
+  }
+  

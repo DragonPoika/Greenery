@@ -10,7 +10,7 @@ With additions to bees, fishing, crops and flowers the pack has lot of features 
   <img src="https://github.com/DragonPoika/Greenery/blob/main/images/butterflies.png?raw=true">
   <img src="https://github.com/DragonPoika/Greenery/blob/main/images/butterfly_containers.png?raw=true">
   <p align="center">
-    Butterflies can rarely be found in the wild. They can be catched with butterfly nets and placed in jars, terrariums and display cases!
+    Butterflies can rarely be found in the wild. They can be cought with butterfly nets and placed in jars, terrariums and display cases!
   </p>
 </div>
 <div align="center">

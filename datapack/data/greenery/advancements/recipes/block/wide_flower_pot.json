@@ -1,0 +1,14 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "greenery:block/wide_flower_pot"
+        }
+      }
+    },
+    "rewards": {
+      "function": "greenery:recipes/block/wide_flower_pot"
+    }
+  }
+  

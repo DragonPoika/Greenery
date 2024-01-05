@@ -46,6 +46,7 @@
 		{"predicate": {"custom_model_data": 795040}, "model": "greenery:block/wide_flower_pot/plants/spruce_sapling"},
 		{"predicate": {"custom_model_data": 795041}, "model": "greenery:block/wide_flower_pot/plants/torchflower"},
 		{"predicate": {"custom_model_data": 795042}, "model": "greenery:block/wide_flower_pot/plants/warped_fungus"},
+		{"predicate": {"custom_model_data": 795049}, "model": "greenery:block/wide_flower_pot/plants/warped_roots"},
 		{"predicate": {"custom_model_data": 795043}, "model": "greenery:block/wide_flower_pot/plants/white_tulip"},
 		{"predicate": {"custom_model_data": 795044}, "model": "greenery:block/wide_flower_pot/plants/wither_rose"},
 		{"predicate": {"custom_model_data": 795046}, "model": "greenery:block/butterfly_terrarium/terrarium_one"},

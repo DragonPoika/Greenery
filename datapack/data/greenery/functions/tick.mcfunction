@@ -8,7 +8,7 @@ execute as @a[scores={greenery.wfoas=0..}] at @s run function greenery:warped_fu
         execute as @e[type=villager,tag=greenery.beekeeper] at @s run function greenery:entities/beekeeper/tick
         execute as @e[type=bee,tag=!greenery.checked] at @s run function greenery:butterfly/check
         execute as @e[type=fishing_bobber,tag=!greenery.checked] at @s run function greenery:fishing/bobber
-        execute as @a[scores={greenery.armor_stand_used=1..}] run execute as @e[type=armor_stand,tag=greenery.mystery_seed] at @s run function greenery:blocks/place_mystery_seeds
+        execute as @a[scores={greenery.armor_stand_used=1..}] run execute as @e[type=armor_stand,tag=greenery.mystery_seeds] at @s run function greenery:blocks/place_mystery_seeds
     # Blocks
         execute as @e[type=item_display,tag=greenery.fishing_net] at @s run function greenery:blocks/fishing_net/tick
         execute as @e[type=item_display,tag=greenery.beehive] at @s unless block ~ ~ ~ minecraft:fletching_table run function greenery:blocks/beehive/break

@@ -1,0 +1,48 @@
+{
+    "pack.greenery": "Greenery",
+    "lore.greenery.tooltip": "\ua000",
+
+    "chat.greenery.load": "Danke für's herunterladen von %s\nFür Support hier klicken:\n",
+    "chat.greenery.dot": "§r ・",
+    "chat.greenery.links.discord": " §nDiscord\n",
+    "chat.greenery.links.smithed": " §nSmithed\n",
+    "chat.greenery.links.github": " §nGithub\n",
+
+    "item.greenery.koi": "Koi",
+    "item.greenery.pike": "Hecht",
+    "item.greenery.tuna": "Thunfisch",
+    "item.greenery.cave_carrot": "Höhlenkarotte",
+    "item.greenery.choco_muffin": "Schokomuffin",
+    "item.greenery.crystallized_beet": "Kristallisierte Rote Bete",
+    "item.greenery.enchanted_crystallized_beet": "Verzauberte kristallisierte Rote Bete",
+    "item.greenery.miners_treat": "Bergmannsgenuss",
+    "item.greenery.worm": "Wurm",
+    "item.greenery.butterfly_net": "Schmetterlingsnetz",
+    "item.greenery.bee_pop": "Bienenpop",
+    "item.greenery.mystery_seeds": "Mischsaatgut",
+
+    "entity.greenery.beekeeper": "Imker",
+    
+    "item.greenery.butterfly": "%sfalter",
+    "item.greenery.butterfly.monarch": "Monarch",
+    "item.greenery.butterfly.morpho": "Blauer Morpho",
+    "item.greenery.butterfly.brimstone": "Zitronen",
+    
+    "enchantment.greenery.replant": "Nachpflanzen",
+
+    "block.greenery.butterfly_jar": "Falterglas",
+    "block.greenery.display_case": "Schaukasten",
+    "block.greenery.fishing_net": "Fischernetz",
+    "block.greenery.hanging_flower_pot": "Hängender Blumentopf",
+    "block.greenery.wide_flower_pot": "Breiter Blumentopf",
+
+    "advancement.greenery.join_first_time": "Greenery ist ein umfangreiches Datapack, das viele landwirtschaftliche und fischereibezogene Funktionen hinzufügt!",
+    "advancement.greenery.fish_with_worm": "Köder geschluckt!",
+    "advancement.greenery.fish_with_worm.description": "Angele mit einem Wurm in deiner Linken",
+    "advancement.greenery.catch_morpho": "Entdecke dein neues Leben!",
+    "advancement.greenery.catch_morpho.description": "Fange einen blauen Morpho",
+    "advancement.greenery.catch_butterfly": "Erwischt!",
+    "advancement.greenery.catch_butterfly.description": "Fange einen Schmetterling",
+    "advancement.greenery.find_greenhouse": "Wer im Glashaus sitzt...",
+    "advancement.greenery.find_greenhouse.description": "Finde ein Gewächshaus"
+}

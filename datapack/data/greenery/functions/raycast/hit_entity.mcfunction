@@ -5,4 +5,3 @@ execute if entity @e[type=item_display,limit=1,sort=nearest,distance=..1,tag=gre
 execute if entity @e[type=item_display,limit=1,sort=nearest,distance=..1,tag=greenery.butterfly_brimstone] run function greenery:butterfly/catch/brimstone
 
 scoreboard players set #greenery.hit greenery.raytemp 1
-say ENTITY FOUND :D

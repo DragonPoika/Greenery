@@ -1,7 +1,7 @@
 ############################################################
 # Sets the initial trades of a beekeeper
 ############################################################
-say init!
+
 tag @s add greenery.beekeeper
 
 item replace entity @s armor.head with minecraft:structure_block{CustomModelData:795002}

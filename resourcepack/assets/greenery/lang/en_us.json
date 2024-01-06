@@ -16,11 +16,12 @@
     "item.greenery.crystallized_beet": "Crystallized Beetroot",
     "item.greenery.enchanted_crystallized_beet": "Enchanted Crystallized Beetroot",
     "item.greenery.miners_treat": "Miner's Treat",
-    "item.greenery.fishing_net": "Fishing Net",
     "item.greenery.worm": "Worm",
     "item.greenery.butterfly_net": "Butterfly Net",
     "item.greenery.bee_pop": "Bee Pop",
     "item.greenery.mystery_seeds": "Seed Assortment",
+
+    "entity.greenery.beekeeper": "Beekeeper",
     
     "item.greenery.butterfly": "%s Butterfly",
     "item.greenery.butterfly.monarch": "Monarch",

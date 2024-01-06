@@ -1,5 +1,6 @@
 execute store result score @s greenery.x run data get entity @s Pos[0]
 execute store result score @s greenery.y run data get entity @s Pos[1]
+scoreboard players remove @s greenery.y 1
 execute store result score @s greenery.z run data get entity @s Pos[2]
 execute as @e[tag=greenery.check_villager,limit=1,sort=nearest] store result score @s greenery.x run data get entity @s Brain.memories."minecraft:job_site".value.pos[0]
 execute as @e[tag=greenery.check_villager,limit=1,sort=nearest] store result score @s greenery.y run data get entity @s Brain.memories."minecraft:job_site".value.pos[1]

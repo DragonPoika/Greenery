@@ -13,7 +13,8 @@ execute as @e[type=item_display,tag=greenery.fishing_net,tag=greenery.new_block,
 execute as @e[type=item_display,tag=greenery.wide_flower_pot,tag=greenery.new_block,limit=1,sort=nearest] run summon interaction ~ ~-0.5 ~ {Tags:["greenery.block","greenery.new_block"],height:0.371,width:0.6}
 execute as @e[type=item_display,tag=greenery.wide_flower_pot,tag=greenery.new_block,limit=1,sort=nearest] run summon marker ~ ~ ~ {Tags:["greenery.block","greenery.new_block"]}
 execute as @e[type=item_display,tag=greenery.wide_flower_pot,tag=greenery.new_block,limit=1,sort=nearest] run data merge entity @s {transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1.001f,1.001f,1.001f]}}
-execute as @e[type=item_display,tag=greenery.beehive,tag=greenery.new_block,limit=1,sort=nearest] run data merge entity @s {transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1.001f,1.001f,1.001f]}}
+execute as @e[type=item_display,tag=greenery.beehive,tag=greenery.new_block,limit=1,sort=nearest] run tp @s ~ ~0.5 ~
+execute as @e[type=item_display,tag=greenery.beehive,tag=greenery.new_block,limit=1,sort=nearest] run data merge entity @s {transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,-0.5f,0f],scale:[1.001f,1.001f,1.001f]}}
 execute if predicate greenery:is_sneaking as @e[type=item_display,tag=greenery.display_case,tag=greenery.new_block,limit=1,sort=nearest] at @s unless block ^ ^ ^1 air run tag @s add gree.display_case.re_place
 execute as @e[type=item_display,tag=greenery.display_case,tag=greenery.new_block,tag=gree.display_case.re_place,limit=1,sort=nearest] run data modify entity @s transformation.translation[1] set value 0.2f
 execute as @e[type=item_display,tag=greenery.display_case,tag=greenery.new_block,tag=gree.display_case.re_place,limit=1,sort=nearest] run data modify entity @s Rotation[1] set value -45.0f

@@ -25,8 +25,8 @@ scoreboard objectives add greenery.armor_stand_used used:armor_stand
 
 
 
-
-
+team add greenery.no_nametag
+team modify greenery.no_nametag nametagVisibility never
 
 
 # ignore this

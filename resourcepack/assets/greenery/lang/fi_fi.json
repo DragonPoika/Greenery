@@ -1,0 +1,45 @@
+{
+    "pack.greenery": "Greenery",
+    "lore.greenery.tooltip": "\ua000",
+
+    "chat.greenery.load": "Kiitos kun latasit %s datapaketin\nJos kaipaat apua, käy näissä linkeissä:\n",
+    "chat.greenery.dot": "§r ・",
+    "chat.greenery.links.discord": " §nDiscord\n",
+    "chat.greenery.links.smithed": " §nSmithed\n",
+    "chat.greenery.links.github": " §nGithub\n",
+
+    "item.greenery.koi": "Koi",
+    "item.greenery.pike": "Hauki",
+    "item.greenery.tuna": "Tonnikala",
+    "item.greenery.cave_carrot": "Luola porkkana",
+    "item.greenery.choco_muffin": "Suklaamuffinsi",
+    "item.greenery.crystallized_beet": "Krystallisoitunut punajuuri",
+    "item.greenery.miners_treat": "Kaivosmiehen herkku",
+    "item.greenery.worm": "Mato",
+    "item.greenery.butterfly_net": "Perhoshaavi",
+    "item.greenery.bee_pop": "Hunajainen herkku",
+    "item.greenery.mystery_seeds": "Siemen lajitelma",
+    
+    "item.greenery.butterfly": "%sperhonen",
+    "item.greenery.butterfly.monarch": "Monarkki",
+    "item.greenery.butterfly.morpho": "Isotaivaansiipi",
+    "item.greenery.butterfly.brimstone": "Sitruuna",
+    
+    "enchantment.greenery.replant": "Uudelleenistutus",
+
+    "block.greenery.butterfly_jar": "Perhos purkki",
+    "block.greenery.display_case": "Vitriini",
+    "block.greenery.fishing_net": "Kalaverkko",
+    "block.greenery.hanging_flower_pot": "Roikkuva kukkaruukku",
+    "block.greenery.wide_flower_pot": "Leveä kukkaruukku",
+
+    "advancement.greenery.join_first_time": "Greenery on kattava datapaketti joka lisää paljon maanviljely- ja kalastusaiheisia ominaisuuksia!",
+    "advancement.greenery.fish_with_worm": "He ottivat syötin",
+    "advancement.greenery.fish_with_worm.description": "Kalasta mato sivukädessäsi",
+    "advancement.greenery.catch_morpho": "Löydä Elämäsi Potentiaali",
+    "advancement.greenery.catch_morpho.description": "Nappaa Isotaivaansiipiperhonen perhoshaavilla",
+    "advancement.greenery.catch_butterfly": "Sainpas!",
+    "advancement.greenery.catch_butterfly.description": "Nappaa perhonen perhoshaavilla",
+    "advancement.greenery.find_greenhouse": "Huone kasvien",
+    "advancement.greenery.find_greenhouse.description": "Löydä kasvihuone"
+}

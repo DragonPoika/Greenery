@@ -17,7 +17,7 @@
                   "functions": [
                     {
                       "function": "minecraft:set_nbt",
-                      "tag": "{case_content:[],greenery_block: \"display_case\",greenery: [{id: \"display_case\"}], CustomModelData: 795000, BlockEntityTag: {Items: [{Slot: 0b, id: \"minecraft:furnace\", Count: 1b, tag: {CustomModelData: 795000, greenery_block: \"display_case\"}}], id: \"minecraft:furnace\"}, display: {Lore: ['{\"italic\":false,\"color\":\"white\",\"font\":\"greenery:tooltip\",\"extra\":[{\"text\":\" \"},{\"color\":\"green\",\"font\":\"minecraft:default\",\"translate\":\"pack.greenery\"}],\"translate\":\"lore.greenery.tooltip\"}'], Name: '{\"italic\":false,\"translate\":\"item.greenery.display_case\",\"fallback\":\"Display Case\"}'}}"
+                      "tag": "{case_content:[],greenery_block: \"display_case\",greenery: [{id: \"display_case\"}], CustomModelData: 795000, BlockEntityTag: {Items: [{Slot: 0b, id: \"minecraft:furnace\", Count: 1b, tag: {CustomModelData: 795000, greenery_block: \"display_case\"}}], id: \"minecraft:furnace\"}, display: {Lore: ['{\"italic\":false,\"color\":\"white\",\"font\":\"greenery:tooltip\",\"extra\":[{\"text\":\" \"},{\"color\":\"green\",\"font\":\"minecraft:default\",\"translate\":\"pack.greenery\"}],\"translate\":\"lore.greenery.tooltip\"}'], Name: '{\"italic\":false,\"translate\":\"block.greenery.display_case\",\"fallback\":\"Display Case\"}'}}"
                     }
                   ]
                 }
@@ -26,7 +26,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate": "item.greenery.display_case",
+                "translate": "block.greenery.display_case",
                 "fallback": "Display Case",
                 "italic": false
               }

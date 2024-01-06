@@ -1,0 +1,19 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": [
+              "minecraft:carrot"
+            ],
+            "nbt": "{greenery:[{id:\"enchanted_crystallized_beet\"}]}"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "greenery:items/consume_item/enchanted_crystallized_beet"
+    }
+  }
+  

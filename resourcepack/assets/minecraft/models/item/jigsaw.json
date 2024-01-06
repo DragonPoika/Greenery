@@ -1,9 +1,5 @@
 {
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "item/jigsaw"
-  },
-	
+  "parent": "minecraft:block/jigsaw",
 	"overrides": [
 		{"predicate": {"custom_model_data":795000}, "model": "greenery:item/butterfly/monarch"},
     {"predicate": {"custom_model_data":795001}, "model": "greenery:item/butterfly/morpho"},

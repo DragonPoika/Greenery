@@ -7,3 +7,5 @@ execute if entity @s[nbt={VillagerData:{level:2}},tag=!greenery.beekeeper.level_
 execute if entity @s[nbt={VillagerData:{level:3}},tag=!greenery.beekeeper.level_3] run function greenery:entities/beekeeper/level_up/3
 execute if entity @s[nbt={VillagerData:{level:4}},tag=!greenery.beekeeper.level_4] run function greenery:entities/beekeeper/level_up/4
 execute if entity @s[nbt={VillagerData:{level:5}},tag=!greenery.beekeeper.level_5] run function greenery:entities/beekeeper/level_up/5
+
+execute if entity @s[nbt={VillagerData:{profession:"minecraft:none"}}] run function greenery:entities/beekeeper/dejob

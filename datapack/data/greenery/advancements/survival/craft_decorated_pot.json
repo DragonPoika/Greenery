@@ -1,0 +1,26 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:decorated_pot",
+        "nbt": "{tag:{BlockEntityTag:{sherds:[\"minecraft:shelter_pottery_sherd\",\"minecraft:snort_pottery_sherd\"]}}}"
+      },
+      "title": {
+        "translate": "advancement.greenery.craft_decorated_pot",
+        "fallback": "Ooooh, ancient!"
+      },
+      "description": {
+        "translate": "advancement.greenery.craft_decorated_pot.description",
+        "fallback": "Craft a decorated pot with one or more Pottery Sherds."
+      }
+    },
+    "parent": "greenery:survival/craft_pots",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "minecraft:decorated_pot"
+        }
+      }
+    }
+  }
+  

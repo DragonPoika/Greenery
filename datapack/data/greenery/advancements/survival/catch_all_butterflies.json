@@ -1,0 +1,71 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:jigsaw",
+      "nbt": "{CustomModelData:795002}"
+    },
+    "title": {
+      "translate": "advancement.greenery.catch_all_butterflies",
+      "fallback": "Gotta Catch 'Em All!"
+    },
+    "description": {
+      "translate": "advancement.greenery.catch_all_butterflies.description",
+      "fallback": "Catch every kind of butterfly."
+    },
+    "hidden": false,
+    "frame": "challenge"
+  },
+  "parent": "greenery:survival/catch_morpho",
+  "criteria": {
+    "morpho": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:jigsaw"
+            ],
+            "nbt": "{greenery:[{id:\"butterfly\"}],CustomModelData:795001}"
+          }
+        ]
+      }
+    },
+    "monarch": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:jigsaw"
+            ],
+            "nbt": "{greenery:[{id:\"butterfly\"}],CustomModelData:795000}"
+          }
+        ]
+      }
+    },
+    "brimstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:jigsaw"
+            ],
+            "nbt": "{greenery:[{id:\"butterfly\"}],CustomModelData:795002}"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "morpho"
+    ],
+    [
+      "monarch"
+    ],
+    [
+      "brimstone"
+    ]
+  ]
+}

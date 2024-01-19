@@ -44,5 +44,11 @@
     "advancement.greenery.catch_butterfly": "Gotcha!",
     "advancement.greenery.catch_butterfly.description": "Catch a butterfly",
     "advancement.greenery.find_greenhouse": "A House of Green",
-    "advancement.greenery.find_greenhouse.description": "Find a Greenhouse"
+    "advancement.greenery.find_greenhouse.description": "Find a Greenhouse",
+    "advancement.greenery.craft_pots": "You're a §oPotter§r, Harry!",
+    "advancement.greenery.craft_pots.description": "Craft all 4 types of pots.",
+    "advancement.greenery.catch_all_butterflies": "Gotta Catch 'Em All",
+    "advancement.greenery.catch_all_butterflies.description": "Catch every kind of butterfly.",
+    "advancement.greenery.craft_decorated_pot": "Ooooh, ancient!",
+    "advancement.greenery.craft_decorated_pot.description": "Craft a decorated pot with one or more Pottery Sherds."
 }

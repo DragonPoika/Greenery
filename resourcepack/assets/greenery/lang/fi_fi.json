@@ -40,9 +40,15 @@
     "advancement.greenery.fish_with_worm": "He ottivat syötin",
     "advancement.greenery.fish_with_worm.description": "Kalasta mato sivukädessäsi",
     "advancement.greenery.catch_morpho": "Löydä Elämäsi Potentiaali",
-    "advancement.greenery.catch_morpho.description": "Nappaa Isotaivaansiipiperhonen perhoshaavilla",
+    "advancement.greenery.catch_morpho.description": "Nappaa psotaivaansiipiperhonen perhoshaavilla",
     "advancement.greenery.catch_butterfly": "Sainpas!",
     "advancement.greenery.catch_butterfly.description": "Nappaa perhonen perhoshaavilla",
     "advancement.greenery.find_greenhouse": "Huone kasvien",
-    "advancement.greenery.find_greenhouse.description": "Löydä kasvihuone"
+    "advancement.greenery.find_greenhouse.description": "Löydä kasvihuone",
+    "advancement.greenery.craft_pots": "Ruukkupoju, oletko se sinä?",
+    "advancement.greenery.craft_pots.description": "Työstä 4 erilaista ruukkua.",
+    "advancement.greenery.catch_all_butterflies": "Perhosét, kaikki kerätään!",
+    "advancement.greenery.catch_all_butterflies.description": "Nappaa yksi jokaista erilaista perhosta.",
+    "advancement.greenery.craft_decorated_pot": "Uuuuu, muinainen!",
+    "advancement.greenery.craft_decorated_pot.description": "Työstä koristeltu ruukku ainakin yhdellä ruukunsirpaleella."
 }

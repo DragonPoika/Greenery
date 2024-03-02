@@ -54,7 +54,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{greenery:[{id:\"wide_flower_pot\"}],CustomModelData:795012}"
+              "tag": "{greenery:[{id:\"wide_flower_pot\"}],CustomModelData:795050}"
             }
           ]
         }

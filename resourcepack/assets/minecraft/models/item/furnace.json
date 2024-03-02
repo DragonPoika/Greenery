@@ -51,6 +51,8 @@
 		{"predicate": {"custom_model_data": 795044}, "model": "greenery:block/wide_flower_pot/plants/wither_rose"},
 		{"predicate": {"custom_model_data": 795046}, "model": "greenery:block/butterfly_terrarium/terrarium_one"},
 		{"predicate": {"custom_model_data": 795047}, "model": "greenery:block/butterfly_terrarium/terrarium_two"},
-		{"predicate": {"custom_model_data": 795048}, "model": "greenery:block/butterfly_terrarium/terrarium_full"}
+		{"predicate": {"custom_model_data": 795048}, "model": "greenery:block/butterfly_terrarium/terrarium_full"},
+		{"predicate": {"custom_model_data": 795049}, "model": "greenery:item/butterfly_jar"},
+		{"predicate": {"custom_model_data": 795050}, "model": "greenery:item/wide_flower_pot"}
 	  ]
 }

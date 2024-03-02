@@ -54,7 +54,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{jar_content:[],greenery:[{id:\"butterfly_jar\"}],CustomModelData:795007}"
+              "tag": "{jar_content:[],greenery:[{id:\"butterfly_jar\"}],CustomModelData:795049}"
             }
           ]
         }

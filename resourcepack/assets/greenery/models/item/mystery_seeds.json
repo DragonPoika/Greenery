@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "greenery:item/mystery_seeds"
+    "layer0": "greenery:item/seed_assortment"
   }
 }

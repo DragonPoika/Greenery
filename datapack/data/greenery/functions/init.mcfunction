@@ -30,4 +30,4 @@ team modify greenery.no_nametag nametagVisibility never
 
 
 # ignore this
-scoreboard objectives add greenery.mystery_seeds_random dummy
+scoreboard objectives add greenery.seed_assortment_random dummy

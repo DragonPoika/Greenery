@@ -5,6 +5,6 @@
   },
 	
 	"overrides": [
-		{"predicate": {"custom_model_data":795000}, "model": "greenery:item/mystery_seeds"}
+		{"predicate": {"custom_model_data":795000}, "model": "greenery:item/seed_assortment"}
 	]
 }

@@ -10,7 +10,7 @@
               {
                 "function": "minecraft:set_name",
                 "name": {
-                  "translate": "item.greenery.mystery_seeds",
+                  "translate": "item.greenery.seed_assortment",
                   "italic": false,
                   "fallback": "Seed Assortment"
                 }
@@ -38,7 +38,7 @@
               },
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{EntityTag:{Small:1b,Tags:[\"greenery.mystery_seeds\"],Invisible:1b},CustomModelData:795000}"
+                "tag": "{EntityTag:{Small:1b,Tags:[\"greenery.seed_assortment\"],Invisible:1b},CustomModelData:795000}"
               }
             ]
           }

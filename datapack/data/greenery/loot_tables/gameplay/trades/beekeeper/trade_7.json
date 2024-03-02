@@ -20,7 +20,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "greenery:items/mystery_seeds"
+          "name": "greenery:items/seed_assortment"
         }
       ]
     }

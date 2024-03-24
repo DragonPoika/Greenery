@@ -1,21 +1,21 @@
 {
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:golden_carrot",
-          "functions": [
-            {
-              "function": "minecraft:set_name",
-              "name": {
-                "translate": "item.greenery.enchanted_crystallized_beet",
-                "italic": false,
-                "fallback": "Enchanted Crystallized Beet"
-              }
-            },
-            {
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:golden_carrot",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "translate": "item.greenery.enchanted_crystallized_beet",
+                  "italic": false,
+                  "fallback": "Enchanted Crystallized Beet"
+                }
+              },
+              {
                 "function": "minecraft:set_lore",
                 "lore": [
                   [
@@ -35,14 +35,20 @@
                     }
                   ]
                 ]
-            },
-            {
-                "function": "minecraft:set_nbt",
-                "tag": "{greenery:[{id:\"enchanted_crystallized_beet\"}],Enchantments:[{}],CustomModelData:795001}"
-            }
-          ]
-        }
-      ]
-    }
-  ]
-}
+              },
+              {
+                "function": "minecraft:set_custom_data",
+                "tag": "{greenery:[{id:\"enchanted_crystallized_beet\"}],CustomModelData:795001}"
+              },
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:enchantment_glint_override": true
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

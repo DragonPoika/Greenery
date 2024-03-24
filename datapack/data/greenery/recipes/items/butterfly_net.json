@@ -17,7 +17,34 @@
         }
     },
     "result": {
-        "item": "knowledge_book",
-        "count": 1
+        "item": "warped_fungus_on_a_stick",
+        "count": 1,
+        "components": {
+            "name": {
+                "translate": "item.greenery.butterfly_net",
+                "fallback": "Butterfly Net",
+                "italic": false
+              },
+              "minecraft:lore": [
+                  [
+                    {
+                      "translate": "lore.greenery.tooltip",
+                      "color": "white",
+                      "font": "greenery:tooltip",
+                      "italic": false
+                    },
+                    {
+                      "text": " "
+                    },
+                    {
+                      "translate": "pack.greenery",
+                      "color": "green",
+                      "font": "minecraft:default"
+                    }
+                  ]
+                ],
+                "minecraft:custom_model_data": 795000,
+                "minecraft:custom_data": {"greenery":[{"id":"butterfly_net"}]}
+        }
     }
 }

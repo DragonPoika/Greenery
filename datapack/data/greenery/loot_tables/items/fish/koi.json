@@ -12,7 +12,7 @@
               "count": 1
             },
             {
-              "function": "minecraft:set_nbt",
+              "function": "minecraft:set_custom_data",
               "tag": "{CustomModelData:795000,greenery:[{id:\"koi\"}]}"
             },
             {

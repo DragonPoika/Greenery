@@ -16,7 +16,7 @@
                   "name": "minecraft:furnace",
                   "functions": [
                     {
-                      "function": "minecraft:set_nbt",
+                      "function": "minecraft:set_custom_data",
                       "tag": "{greenery_block: \"wide_flower_pot\",greenery: [{id: \"wide_flower_pot\"}], CustomModelData: 795012, BlockEntityTag: {Items: [{Slot: 0b, id: \"minecraft:furnace\", Count: 1b, tag: {CustomModelData: 795012, greenery_block: \"wide_flower_pot\"}}], id: \"minecraft:furnace\"}, display: {Lore: ['{\"italic\":false,\"color\":\"white\",\"font\":\"greenery:tooltip\",\"extra\":[{\"text\":\" \"},{\"color\":\"green\",\"font\":\"minecraft:default\",\"translate\":\"pack.greenery\"}],\"translate\":\"lore.greenery.tooltip\"}'], Name: '{\"italic\":false,\"translate\":\"block.greenery.wide_flower_pot\",\"fallback\":\"Wide Flower Pot\"}'}}"
                     }
                   ]
@@ -53,7 +53,7 @@
               ]
             },
             {
-              "function": "minecraft:set_nbt",
+              "function": "minecraft:set_custom_data",
               "tag": "{greenery:[{id:\"wide_flower_pot\"}],CustomModelData:795050}"
             }
           ]

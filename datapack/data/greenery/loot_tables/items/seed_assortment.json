@@ -37,7 +37,7 @@
                 ]
               },
               {
-                "function": "minecraft:set_nbt",
+                "function": "minecraft:set_custom_data",
                 "tag": "{EntityTag:{Small:1b,Tags:[\"greenery.seed_assortment\"],Invisible:1b},CustomModelData:795000}"
               }
             ]

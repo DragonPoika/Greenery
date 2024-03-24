@@ -15,7 +15,35 @@
         }
     ],
     "result": {
-        "item": "minecraft:knowledge_book",
-        "count": 1
+        "item": "minecraft:cooked_chicken",
+        "count": 1,
+        "components": {
+          "name": {
+            "translate": "item.greenery.bee_pop",
+            "fallback": "Bee Pop",
+            "italic": false
+          },
+          "minecraft:lore": [
+              [
+                {
+                  "translate": "lore.greenery.tooltip",
+                  "color": "white",
+                  "font": "greenery:tooltip",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "translate": "pack.greenery",
+                  "color": "green",
+                  "font": "minecraft:default"
+                }
+              ]
+            ],
+            "minecraft:custom_model_data": 795001,
+            "minecraft:custom_data": {"greenery":[{"id":"bee_pop"}]},
+            "minecraft:food": {"nutrition":8,"saturation_modifier":10.8}
+        }
     }
 }

@@ -12,7 +12,34 @@
         }
     ],
     "result": {
-        "item": "minecraft:knowledge_book",
-        "count": 1
+        "item": "minecraft:bread",
+        "count": 2,
+        "components": {
+            "name": {
+                "translate": "item.greenery.choco_muffin",
+                "fallback": "Chocolate Muffin",
+                "italic": false
+              },
+              "minecraft:lore": [
+                  [
+                    {
+                      "translate": "lore.greenery.tooltip",
+                      "color": "white",
+                      "font": "greenery:tooltip",
+                      "italic": false
+                    },
+                    {
+                      "text": " "
+                    },
+                    {
+                      "translate": "pack.greenery",
+                      "color": "green",
+                      "font": "minecraft:default"
+                    }
+                  ]
+                ],
+                "minecraft:custom_model_data": 795000,
+                "minecraft:custom_data": {"greenery":[{"id":"choco_muffin"}]}
+        }
     }
 }

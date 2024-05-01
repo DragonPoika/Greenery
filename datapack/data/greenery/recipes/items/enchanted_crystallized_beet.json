@@ -18,36 +18,23 @@
         }
     ],
     "result": {
-        "item": "minecraft:golden_carrot",
-        "count": 10,
-        "components": {
-            "name": {
-                "translate": "item.greenery.enchanted_crystallized_beet",
-                "fallback": "Enchanted Crystallized Beet",
-                "italic": false
-              },
-              "minecraft:lore": [
-                  [
-                    {
-                      "translate": "lore.greenery.tooltip",
-                      "color": "white",
-                      "font": "greenery:tooltip",
-                      "italic": false
-                    },
-                    {
-                      "text": " "
-                    },
-                    {
-                      "translate": "pack.greenery",
-                      "color": "green",
-                      "font": "minecraft:default"
-                    }
-                  ]
-                ],
-                "minecraft:custom_model_data": 795001,
-                "minecraft:custom_data": {"greenery":[{"id":"enchanted_crystallized_beet"}]},
-                "minecraft:enchantment_glint_override": true,
-                "minecraft:food": {"nutrition":8,"saturation_modifier":10.8,"effects":[{"effect":{"id":"minecraft:night_vision","amplifier":1,"duration":30}}]}
-        }
+      "id": "minecraft:golden_carrot",
+      "count": 1,
+      "components": {
+        "minecraft:custom_model_data": 795001,
+        "minecraft:custom_data": {
+          "greenery": {
+            "id": "enchanted_crystallized_beet"
+          }
+        },
+        "minecraft:food": {
+          "nutrition": 6,
+          "saturation": 14.4
+        },
+        "minecraft:item_name": "{\"translate\":\"item.greenery.enchanted_crystallized_beet\"}",
+        "minecraft:lore": [
+          [{"color":"white","extra":[" ",{"color":"green","font":"minecraft:default","translate":"pack.greenery"}],"font":"greenery:tooltip","italic":false,"translate":"lore.greenery.tooltip"}]
+        ]
+      }
     }
 }

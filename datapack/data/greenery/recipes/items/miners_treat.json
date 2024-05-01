@@ -15,35 +15,23 @@
         }
     ],
     "result": {
-        "item": "minecraft:cooked_chicken",
-        "count": 1,
-        "components": {
-            "name": {
-                "translate": "item.greenery.miners_treat",
-                "fallback": "Miner's Treat",
-                "italic": false
-              },
-              "minecraft:lore": [
-                  [
-                    {
-                      "translate": "lore.greenery.tooltip",
-                      "color": "white",
-                      "font": "greenery:tooltip",
-                      "italic": false
-                    },
-                    {
-                      "text": " "
-                    },
-                    {
-                      "translate": "pack.greenery",
-                      "color": "green",
-                      "font": "minecraft:default"
-                    }
-                  ]
-                ],
-                "minecraft:custom_model_data": 795000,
-                "minecraft:custom_data": {"greenery":[{"id":"miners_treat"}]},
-                "minecraft:food": {"nutrition":8,"saturation_modifier":10.8}
-              }
-       }
-}
+      "id": "minecraft:cooked_chicken",
+      "count": 1,
+      "components": {
+        "minecraft:custom_model_data": 795000,
+        "minecraft:custom_data": {
+          "greenery": {
+            "id": "miners_treat"
+          }
+        },
+        "minecraft:food": {
+          "nutrition": 2,
+          "saturation": 0.4
+        },
+        "minecraft:item_name": "{\"translate\":\"item.greenery.miners_treat\"}",
+        "minecraft:lore": [
+          [{"color":"white","extra":[" ",{"color":"green","font":"minecraft:default","translate":"pack.greenery"}],"font":"greenery:tooltip","italic":false,"translate":"lore.greenery.tooltip"}]
+        ]
+      }
+    }
+} 

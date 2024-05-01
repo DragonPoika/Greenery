@@ -1,48 +1,54 @@
 {
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:cooked_chicken",
-            "functions": [
-              {
-                "function": "minecraft:set_name",
-                "name": {
-                  "translate": "item.greenery.poison_pop",
-                  "italic": false,
-                  "fallback": "Poison Pop"
-                }
-              },
-              {
-                "function": "minecraft:set_lore",
-                "lore": [
-                  [
-                    {
-                      "translate": "lore.greenery.tooltip",
-                      "color": "white",
-                      "font": "greenery:tooltip",
-                      "italic": false
-                    },
-                    {
-                      "text": " "
-                    },
-                    {
-                      "translate": "pack.greenery",
-                      "font": "minecraft:default",
-                      "color": "green"
-                    }
-                  ]
-                ]
-              },
-              {
-                "function": "minecraft:set_custom_data",
-                "tag": "{greenery:[{id:\"poison_pop\"}],CustomModelData:795002}"
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cooked_chicken",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "translate": "item.greenery.poison_pop",
+                "fallback": "Poison Pop",
+                "italic": false
               }
-            ]
-          }
-        ]
-      }
-    ]
-  }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                [
+                  {
+                    "translate": "lore.greenery.tooltip",
+                    "color": "white",
+                    "font": "greenery:tooltip",
+                    "italic": false
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "translate": "pack.greenery",
+                    "color": "green",
+                    "font": "minecraft:default"
+                  }
+                ]
+              ],
+              "mode": "insert"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{greenery:[{id:'poison_pop'}]}"
+            },
+            {
+              "function": "minecraft:set_custom_model_data",
+              "value": 795002
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -8,15 +8,8 @@
           "name": "minecraft:cookie",
           "functions": [
             {
-              "function": "minecraft:set_count",
-              "count": 1
-            },
-            {
-              "function": "minecraft:set_custom_data",
-              "tag": "{CustomModelData:795000,greenery:[{id:\"koi\"}]}"
-            },
-            {
               "function": "minecraft:set_name",
+              "target": "item_name",
               "name": [
                 {
                   "translate": "item.greenery.koi",
@@ -39,11 +32,19 @@
                   },
                   {
                     "translate": "pack.greenery",
-                    "font": "minecraft:default",
-                    "color": "green"
+                    "color": "green",
+                    "font": "minecraft:default"
                   }
                 ]
               ]
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{greenery:[{id:'koi'}]}"
+            },
+            {
+              "function": "minecraft:set_custom_model_data",
+              "value": 795000
             }
           ]
         }

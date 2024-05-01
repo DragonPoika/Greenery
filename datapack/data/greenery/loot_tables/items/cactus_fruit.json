@@ -9,10 +9,11 @@
           "functions": [
             {
               "function": "minecraft:set_name",
+              "target": "item_name",
               "name": {
                 "translate": "item.greenery.cactus_fruit",
-                "italic": false,
-                "fallback": "Cactus Fruit"
+                "fallback": "Cactus Fruit",
+                "italic": false
               }
             },
             {
@@ -30,15 +31,20 @@
                   },
                   {
                     "translate": "pack.greenery",
-                    "font": "minecraft:default",
-                    "color": "green"
+                    "color": "green",
+                    "font": "minecraft:default"
                   }
                 ]
-              ]
+              ],
+              "mode": "insert"
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{greenery:[{id:\"cactus_fruit\"}],CustomModelData:795006}"
+              "tag": "{greenery:[{id:'cactus_fruit'}]}"
+            },
+            {
+              "function": "minecraft:set_custom_model_data",
+              "value": 795006
             }
           ]
         }

@@ -27,7 +27,7 @@
         },
         "minecraft:item_name": "{\"translate\":\"item.greenery.choco_muffin\"}",
         "minecraft:lore": [
-          [{"color":"white","extra":[" ",{"color":"green","font":"minecraft:default","translate":"pack.greenery"}],"font":"greenery:tooltip","italic":false,"translate":"lore.greenery.tooltip"}]
+          "[{\"translate\": \"lore.greenery.tooltip\",\"color\": \"white\",\"font\": \"greenery:tooltip\",\"italic\": false},{\"text\": \" \"},{\"translate\": \"pack.greenery\",\"color\": \"green\",\"font\": \"minecraft:default\"}]"
         ]
       }
     }

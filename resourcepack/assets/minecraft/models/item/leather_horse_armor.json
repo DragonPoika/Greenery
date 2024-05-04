@@ -1,5 +1,4 @@
 {
-	"credit": "Made in Blockbench by ToastedDragon",
 	"parent": "minecraft:item/generated",
 	"textures": {
 		"layer0": "item/leather_horse_armor"

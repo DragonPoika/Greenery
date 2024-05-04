@@ -36,7 +36,7 @@
                   }
                 ]
               ],
-              "mode": "replace_all"
+              "mode": "insert"
             },
             {
               "function": "minecraft:set_custom_data",

@@ -1,8 +1,10 @@
 {
     "display": {
       "icon": {
-        "item": "minecraft:jigsaw",
-        "nbt": "{CustomModelData:795000}"
+        "id": "minecraft:jigsaw",
+        "components": {
+          "minecraft:custom_model_data": 795000
+        }
       },
       "title": {
         "translate": "advancement.greenery.catch_butterfly",

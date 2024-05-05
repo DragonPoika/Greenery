@@ -10,12 +10,19 @@
             {
               "function": "minecraft:set_name",
               "target": "item_name",
-              "name": [
-                {
-                  "translate": "item.greenery.koi",
-                  "italic": false
-                }
-              ]
+              "name": {
+                "translate": "item.greenery.koi",
+                "fallback": "Koi",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{greenery:[{id:'koi'}]}"
+            },
+            {
+              "function": "minecraft:set_custom_model_data",
+              "value": 795000
             },
             {
               "function": "minecraft:set_lore",
@@ -23,6 +30,7 @@
                 [
                   {
                     "translate": "lore.greenery.tooltip",
+                    "fallback": "🍃",
                     "color": "white",
                     "font": "greenery:tooltip",
                     "italic": false
@@ -32,19 +40,13 @@
                   },
                   {
                     "translate": "pack.greenery",
+                    "fallback": "Greenery",
                     "color": "green",
                     "font": "minecraft:default"
                   }
                 ]
-              ]
-            },
-            {
-              "function": "minecraft:set_custom_data",
-              "tag": "{greenery:[{id:'koi'}]}"
-            },
-            {
-              "function": "minecraft:set_custom_model_data",
-              "value": 795000
+              ],
+              "mode": "replace_all"
             }
           ]
         }

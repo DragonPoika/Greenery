@@ -1,12 +1,13 @@
 {
-    "condition": "minecraft:entity_properties",
-    "entity": "this",
-    "predicate": {
-      "equipment": {
-        "offhand": {
-          "nbt": "{greenery:[{id:\"worm\"}]}"
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "offhand": {
+        "predicates": {
+          "minecraft:custom_data": "{greenery:[{id:'worm'}]}"
         }
       }
     }
   }
-  
+}

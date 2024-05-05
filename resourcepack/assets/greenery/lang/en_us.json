@@ -1,7 +1,8 @@
 {
     "pack.greenery": "Greenery",
     "lore.greenery.tooltip": "\ua000",
-
+    
+    "chat.greenery.description": "Greenery is a large content datapack which adds lots of farming and fishing features to the base game.",
     "chat.greenery.load": "Thanks for downloading %s\nIf you need help, check these links:\n",
     "chat.greenery.dot": "§r ・",
     "chat.greenery.links.discord": " §nDiscord\n",

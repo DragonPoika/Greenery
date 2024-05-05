@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:pitcher_plant"
+      "id": "minecraft:pitcher_plant"
     },
     "title": [
       {
@@ -20,10 +20,10 @@
       }
     ],
     "description": {
-      "translate": "advancement.greenery.join_first_time",
-      "fallback": "Download Greenery"
+      "translate": "chat.greenery.description",
+      "fallback": "Greenery is a large content datapack which adds lots of farming and fishing features to the base game."
     },
-    "background": "minecraft:textures/block/farmland.png",
+    "background": "minecraft:textures/block/moss.png",
     "show_toast": false,
     "announce_to_chat": false
   },

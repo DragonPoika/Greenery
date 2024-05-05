@@ -7,45 +7,23 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
+          "value": "minecraft:gameplay/fishing/junk",
           "weight": 10,
-          "quality": -2,
-          "name": "minecraft:gameplay/fishing/junk",
-          "conditions": [
-            {
-              "condition": "minecraft:inverted",
-              "term": {
-                "condition": "minecraft:entity_properties",
-                "entity": "this",
-                "predicate": {
-                  "nbt": "{Tags:[\"greenery.bobber_has_worm\"]}"
-                }
-              }
-            }
-          ]
+          "quality": -2
         },
         {
           "type": "minecraft:loot_table",
+          "value": "minecraft:gameplay/fishing/treasure",
           "weight": 5,
           "quality": 2,
-          "name": "minecraft:gameplay/fishing/treasure",
           "conditions": [
             {
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
                 "type_specific": {
-                  "type": "fishing_hook",
+                  "type": "minecraft:fishing_hook",
                   "in_open_water": true
-                }
-              }
-            },
-            {
-              "condition": "minecraft:inverted",
-              "term": {
-                "condition": "minecraft:entity_properties",
-                "entity": "this",
-                "predicate": {
-                  "nbt": "{Tags:[\"greenery.bobber_has_worm\"]}"
                 }
               }
             }
@@ -53,15 +31,29 @@
         },
         {
           "type": "minecraft:loot_table",
+          "value": "minecraft:gameplay/fishing/fish",
           "weight": 85,
-          "quality": -1,
-          "name": "minecraft:gameplay/fishing/fish"
+          "quality": -1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:gameplay/fishing/fish",
+          "weight": 5,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[\"greenery.bobber_has_worm\"]}"
+              }
+            }
+          ]
         }
       ]
     }
   ],
   "random_sequence": "minecraft:gameplay/fishing",
-    "__smithed__": {
+  "__smithed__": {
     "rules": [
       {
         "type": "weld:append",

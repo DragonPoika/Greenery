@@ -1,8 +1,10 @@
 {
     "display": {
       "icon": {
-        "item": "minecraft:jigsaw",
-        "nbt": "{CustomModelData:795001}"
+        "id": "minecraft:jigsaw",
+        "components": {
+          "minecraft:custom_model_data": 795001
+        }
       },
       "title": {
         "translate": "advancement.greenery.catch_morpho",

@@ -168,6 +168,25 @@
               ]
             }
           ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "greenery:items/fish/cave_fish",
+          "weight": 60,
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "position": {
+                  "y": {
+                    "min": 0,
+                    "max": -64
+                  }
+                },
+                "can_see_sky": false
+              }
+            }
+          ]
         }
       ]
     }

@@ -2,7 +2,6 @@ scoreboard objectives add greenery.x dummy
 scoreboard objectives add greenery.y dummy
 scoreboard objectives add greenery.z dummy
 
-scoreboard objectives add greenery.ench_timer dummy
 scoreboard objectives add greenery.count dummy
 scoreboard objectives add greenery.mined_wheat minecraft.mined:minecraft.wheat
 scoreboard objectives add greenery.mined_carrots minecraft.mined:minecraft.carrots

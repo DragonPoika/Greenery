@@ -1,6 +1,6 @@
 {
     "pack": {
-        "pack_format": 26,
+        "pack_format": 43,
         "description": {"text":"Adds farming and fishing related features","color": "green"}
     }
 }

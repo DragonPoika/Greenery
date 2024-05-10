@@ -1,5 +1,6 @@
 {
     "type": "minecraft:crafting_shaped",
+    "category": "equipment",
     "pattern": [
         "  #",
         " /|",
@@ -20,16 +21,16 @@
       "id": "minecraft:warped_fungus_on_a_stick",
       "count": 1,
       "components": {
-        "minecraft:custom_model_data": 795001,
+        "minecraft:custom_model_data": 795000,
         "minecraft:custom_data": {
           "greenery": {
             "id": "butterfly_net"
-          },
+          }
+        },
         "minecraft:item_name": "{\"translate\":\"item.greenery.butterfly_net\"}",
         "minecraft:lore": [
           "[{\"translate\": \"lore.greenery.tooltip\",\"color\": \"white\",\"font\": \"greenery:tooltip\",\"italic\": false},{\"text\": \" \"},{\"translate\": \"pack.greenery\",\"color\": \"green\",\"font\": \"minecraft:default\"}]"
         ]
       }
     }
-  }
 }

@@ -53,5 +53,7 @@
     "advancement.greenery.catch_all_butterflies": "Gotta Catch 'Em All",
     "advancement.greenery.catch_all_butterflies.description": "Catch every kind of butterfly.",
     "advancement.greenery.craft_decorated_pot": "Ooooh, ancient!",
-    "advancement.greenery.craft_decorated_pot.description": "Craft a decorated pot with one or more Pottery Sherds."
+    "advancement.greenery.craft_decorated_pot.description": "Craft a decorated pot with one or more Pottery Sherds.",
+    "advancement.greenery.botanist": "Quite the botanist",
+    "advancement.greenery.botanist.description": "Obtain every small flower."
 }

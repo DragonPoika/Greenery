@@ -39,6 +39,17 @@
     "block.greenery.hanging_flower_pot": "Hanging Flower Pot",
     "block.greenery.wide_flower_pot": "Wide Flower Pot",
 
+    "painting.greenery.goldfish.title": "Goldfish",
+    "painting.greenery.goldfish.author": "Henri Matisse",
+    "painting.greenery.nympheas.title": "Nymphéas",
+    "painting.greenery.nympheas.author": "Claude Monet",
+    "painting.greenery.sunflowers.title": "Sunflowers",
+    "painting.greenery.sunflowers.author": "Greenery",
+    "painting.greenery.peonies.title": "Peonies",
+    "painting.greenery.peonies.author": "Greenery",
+    "painting.greenery.forest.title": "Forest",
+    "painting.greenery.forest.author": "Greenery",
+
     "advancement.greenery.join_first_time": "Greenery is an extensive datapack that adds a lot of farming and fishing related features!",
     "advancement.greenery.fish_with_worm": "They took the bait",
     "advancement.greenery.fish_with_worm.description": "Fish with a worm in your offhand",

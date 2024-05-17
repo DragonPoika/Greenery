@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+        "CCC"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:string"
+        },
+        "C": {
+            "item": "minecraft:chain"
+        }
+    },
+    "result": {
+        "item": "knowledge_book"
+    }
+}

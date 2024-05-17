@@ -1,5 +1,6 @@
 {
     "type": "minecraft:crafting_shapeless",
+    "category": "food",
     "ingredients": [
         {
             "item": "minecraft:sugar"
@@ -26,7 +27,10 @@
         },
         "minecraft:food": {
           "nutrition": 2,
-          "saturation": 0.4
+          "saturation": 0.4,
+          "using_converts_to": {
+            "id": "minecraft:stick"
+          }
         },
         "minecraft:item_name": "{\"translate\":\"item.greenery.poison_pop\"}",
         "minecraft:lore": [

@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "greenery:items/worm"
+          "value": "greenery:items/worm"
         }
       ],
       "conditions": [

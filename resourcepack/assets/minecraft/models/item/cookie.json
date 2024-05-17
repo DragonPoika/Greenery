@@ -11,6 +11,7 @@
 		{"predicate": {"custom_model_data":795003}, "model": "greenery:item/worm"},
 		{"predicate": {"custom_model_data":795004}, "model": "greenery:entity/butterfly"},
 		{"predicate": {"custom_model_data":795005}, "model": "greenery:block/fishing_net"},
-		{"predicate": {"custom_model_data":795006}, "model": "greenery:item/cactus_fruit"}
+		{"predicate": {"custom_model_data":795006}, "model": "greenery:item/cactus_fruit"},
+		{"predicate": {"custom_model_data":795007}, "model": "greenery:item/cave_fish"}
 	]
 }

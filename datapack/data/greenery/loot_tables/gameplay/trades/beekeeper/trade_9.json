@@ -23,7 +23,7 @@
         "entries": [
           {
             "type": "minecraft:loot_table",
-            "name": "greenery:items/replant_enchant"
+            "value": "greenery:items/replant_enchant"
           }
         ]
       }

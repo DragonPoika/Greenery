@@ -18,18 +18,20 @@
     "item.greenery.crystallized_beet": "Crystallized Beetroot",
     "item.greenery.enchanted_crystallized_beet": "Enchanted Crystallized Beetroot",
     "item.greenery.worm": "Worm",
-    "item.greenery.butterfly_net": "Butterfly Net",
     "item.greenery.seed_assortment": "Seed Assortment",
     "item.greenery.bee_pop": "Bee Pop",
     "item.greenery.miners_treat": "Miner's Treat",
     "item.greenery.poison_pop": "Poison Pop",
-
-    "entity.greenery.beekeeper": "Beekeeper",
     
+    "item.greenery.butterfly_net": "Butterfly Net",
+    "lore.greenery.butterfly_net.description1": "Interact while looking at Butterfly:",
+    "lore.greenery.butterfly_net.description2": " Catch Butterfly",
     "item.greenery.butterfly": "%s Butterfly",
     "item.greenery.butterfly.monarch": "Monarch",
     "item.greenery.butterfly.morpho": "Morpho",
     "item.greenery.butterfly.brimstone": "Brimstone",
+    
+    "entity.greenery.beekeeper": "Beekeeper",
     
     "enchantment.greenery.replant": "Replant",
 

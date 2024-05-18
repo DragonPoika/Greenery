@@ -34,7 +34,18 @@
                     "color": "green",
                     "font": "minecraft:default"
                   }
-                ]
+                ],
+                " ",
+                {
+                  "translate": "lore.greenery.butterfly_net.description1",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "translate": "lore.greenery.butterfly_net.description2",
+                  "color": "blue",
+                  "italic": false
+                }
               ],
               "mode": "replace_all"
             },

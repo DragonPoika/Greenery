@@ -29,7 +29,9 @@
         },
         "minecraft:item_name": "{\"translate\":\"item.greenery.butterfly_net\"}",
         "minecraft:lore": [
-          "[{\"translate\": \"lore.greenery.tooltip\",\"color\": \"white\",\"font\": \"greenery:tooltip\",\"italic\": false},{\"text\": \" \"},{\"translate\": \"pack.greenery\",\"color\": \"green\",\"font\": \"minecraft:default\"}]"
+          "[{\"translate\":\"lore.greenery.tooltip\",\"color\":\"white\",\"font\":\"greenery:tooltip\",\"italic\":false},\" \",{\"translate\":\"pack.greenery\",\"color\":\"green\",\"font\":\"minecraft:default\"}]", "\"\"",
+          "{\"translate\":\"lore.greenery.butterfly_net.description1\",\"color\":\"gray\",\"font\":\"minecraft:default\",\"italic\":false}", 
+          "{\"translate\":\"lore.greenery.butterfly_net.description2\",\"color\":\"blue\",\"font\":\"minecraft:default\",\"italic\":false}"
         ]
       }
     }

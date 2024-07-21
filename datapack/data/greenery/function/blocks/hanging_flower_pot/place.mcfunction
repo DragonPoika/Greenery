@@ -1,1 +1,1 @@
-execute align xyz positioned ~.5 ~.5 ~.5 run summon item_display ~ ~ ~ {item:{id:"leather_horse_armor",Count:1b,tag:{CustomModelData:795005}},Tags:["smithed.block","greenery.hanging_flower_pot"]}
+execute align xyz positioned ~.5 ~.5 ~.5 run summon item_display ~ ~ ~ {item:{id:"leather_horse_armor",count:1,tag:{CustomModelData:795005}},Tags:["smithed.block","greenery.hanging_flower_pot"]}

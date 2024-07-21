@@ -8,20 +8,28 @@
           "name": "minecraft:furnace",
           "functions": [
             {
+              "function": "minecraft:set_custom_model_data",
+              "value": 795011
+            },
+            {
               "function": "minecraft:set_custom_data",
-              "tag": "{CustomModelData:795011,display:{Name:'{\"text\":\"Beehive\",\"italic\":false}'}}"
+              "tag": "{display:{Name:'{\"text\":\"Beehive\",\"italic\":false}'}}"
             },
             {
               "function": "minecraft:set_contents",
-              "type": "minecraft:furnace",
+              "component": "minecraft:container",
               "entries": [
                 {
                   "type": "minecraft:item",
                   "name": "minecraft:furnace",
                   "functions": [
                     {
+                      "function": "minecraft:set_custom_model_data",
+                      "value": 795011
+                    },
+                    {
                       "function": "minecraft:set_custom_data",
-                      "tag": "{greenery_block:\"beehive\",CustomModelData:795011,display:{Name:'{\"text\":\"Beehive\",\"italic\":false}'}}"
+                      "tag": "{greenery_block:\"beehive\",display:{Name:'{\"text\":\"Beehive\",\"italic\":false}'}}"
                     }
                   ]
                 }

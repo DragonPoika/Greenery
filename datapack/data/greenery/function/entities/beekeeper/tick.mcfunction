@@ -1,5 +1,5 @@
-item replace entity @s weapon.mainhand with leather_horse_armor{CustomModelData:795001}
-item replace entity @s armor.head with leather_horse_armor{CustomModelData:795002}
+item replace entity @s weapon.mainhand with leather_horse_armor[custom_model_data=795001]
+item replace entity @s armor.head with leather_horse_armor[custom_model_data=795002]
 # data merge entity @s {Brain:{memories:{"minecraft:job_site":{value:{pos:[I;-7,73,-10],dimension:"minecraft:overworld"}}}}}
 
 # Leveling up

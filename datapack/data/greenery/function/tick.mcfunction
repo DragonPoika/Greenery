@@ -1,5 +1,7 @@
 execute as @a[scores={greenery.wfoas=0..}] at @s run function greenery:warped_fungus_on_a_stick
 
+execute as @a at @s run function greenery:replant/block_check
+
 #Ticking Functions
     # Entities
         execute as @e[type=villager,tag=greenery.beekeeper] at @s run function greenery:entities/beekeeper/tick

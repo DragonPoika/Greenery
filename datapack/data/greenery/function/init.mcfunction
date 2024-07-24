@@ -28,5 +28,5 @@ team add greenery.no_nametag
 team modify greenery.no_nametag nametagVisibility never
 
 
-# ignore this
+# ignore this :3
 scoreboard objectives add greenery.seed_assortment_random dummy

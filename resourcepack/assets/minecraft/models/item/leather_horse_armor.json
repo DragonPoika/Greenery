@@ -17,6 +17,7 @@
 		{"predicate": {"custom_model_data": 795021}, "model": "greenery:block/display_case/1"},
 		{"predicate": {"custom_model_data": 795022}, "model": "greenery:block/display_case/2"},
 		{"predicate": {"custom_model_data": 795023}, "model": "greenery:block/display_case/3"},
-		{"predicate": {"custom_model_data": 795024}, "model": "greenery:block/display_case/full"}
+		{"predicate": {"custom_model_data": 795024}, "model": "greenery:block/display_case/full"},
+		{"predicate": {"custom_model_data": 795025}, "model": "greenery:entity/queenbee"}
 	]
 }

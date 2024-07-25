@@ -15,7 +15,7 @@
       },
       {
         "translate": "pack.greenery",
-        "color": "green",
+        "color": "black",
         "font": "minecraft:default"
       }
     ],
@@ -23,7 +23,7 @@
       "translate": "chat.greenery.description",
       "fallback": "Greenery is a large content datapack which adds lots of farming and fishing features to the base game."
     },
-    "background": "minecraft:textures/block/moss.png",
+    "background": "minecraft:textures/block/moss_block.png",
     "show_toast": false,
     "announce_to_chat": false
   },

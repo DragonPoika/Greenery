@@ -21,6 +21,14 @@
         {
           "type": "minecraft:loot_table",
           "value": "greenery:items/bee_pop"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "greenery:items/poison_pop"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "greenery:items/miners_treat"
         }
       ]
     }

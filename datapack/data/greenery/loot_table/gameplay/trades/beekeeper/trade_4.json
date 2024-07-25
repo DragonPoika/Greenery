@@ -5,11 +5,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:emerald",
+          "name": "minecraft:honey_bottle",
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 3
+              "count": 2
             }
           ]
         }
@@ -20,7 +20,13 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:honey_bottle"
+          "name": "minecraft:emerald",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            }
+          ]
         }
       ]
     }

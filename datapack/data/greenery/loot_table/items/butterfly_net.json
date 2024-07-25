@@ -55,7 +55,7 @@
             },
             {
               "function": "minecraft:set_custom_model_data",
-              "value": 795001
+              "value": 795000
             }
           ]
         }

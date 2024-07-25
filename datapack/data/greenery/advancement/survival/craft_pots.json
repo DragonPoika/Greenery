@@ -5,7 +5,7 @@
       },
       "title": {
         "translate": "advancement.greenery.craft_pots",
-        "fallback": "You're a Potter, Harry!"
+        "fallback": "Potter? Like Harry Potter?"
       },
       "description": {
         "translate": "advancement.greenery.craft_pots.description",

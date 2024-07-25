@@ -1,32 +1,36 @@
 {
-  "display": {
-    "icon": {
-      "id": "minecraft:furnace",
-      "nbt": "{CustomModelData:795010}"
-    },
-    "title": {
-      "translate": "advancement.greenery.craft_fishing_net",
-      "fallback": "Welcome to the Fishing Net!"
-    },
-    "description": {
-      "translate": "advancement.greenery.craft_fishing_net.description",
-      "fallback": "Craft a Fishing Net"
-    }
-  },
-  "parent": "greenery:survival/fish_with_worm",
-  "criteria": {
-    "requirement": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:furnace"
-            ],
-            "nbt": "{Tags:[\"greenery.fishnet\"]}"
-          }
-        ]
-      }
-    }
-  }
+	"display": {
+		"icon": {
+			"id": "minecraft:furnace",
+			"components": {
+				"minecraft:custom_model_data": 795010
+			}
+		},
+		"title": {
+			"translate": "advancement.greenery.craft_fishing_net",
+			"fallback": "Welcome to the Fishing Net!"
+		},
+		"description": {
+			"translate": "advancement.greenery.craft_fishing_net.description",
+			"fallback": "Craft a Fishing Net"
+		}
+	},
+	"parent": "greenery:survival/fish_with_worm",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:furnace"
+						],
+						"components": {
+							"minecraft:custom_data": "{Tags:['greenery.fishnet']}"
+						}
+					}
+				]
+			}
+		}
+	}
 }

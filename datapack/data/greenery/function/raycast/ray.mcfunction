@@ -10,6 +10,3 @@ scoreboard players add #greenery.distance greenery.raytemp 1
 #Advance forward and run the ray again if no entity and/or block was found.
 
 execute if score #greenery.hit greenery.raytemp matches 0 if score #greenery.distance greenery.raytemp matches ..50 positioned ^ ^ ^0.1 run function greenery:raycast/ray
-
-# Particle
-particle soul_fire_flame ~ ~ ~ 0 0 0 0 1

@@ -10,8 +10,8 @@ function greenery:raycast/ray
 
 #Running custom post-raycast commands.
 
-playsound minecraft:ui.stonecutter.select_recipe player @a ~ ~ ~
-particle minecraft:sweep_attack ^ ^.4 ^1
+playsound greenery:item.butterfly_net.use player @a ~ ~ ~
+particle minecraft:sweep_attack ^ ^ ^1.75
 
 # execute if entity @e[type=minecraft:bee,limit=1,sort=nearest,tag=greenery.butterfly] run say Dropping Butterfly :3
 

@@ -1,6 +1,6 @@
 {
     "values": [
-        "minecraft:item_display",
-        "minecraft:bee"
+        "minecraft:bee",
+        "minecraft:item_display"
     ]
 }

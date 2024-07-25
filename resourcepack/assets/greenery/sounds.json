@@ -5,5 +5,28 @@
               "name": "greenery:music_disc/flight_of_the_bumblebee"
             }
         ]
+    },
+    "item.butterfly_net.use": {
+        "sounds": [
+            {
+                "name": "greenery:items/butterfly_net/woosh0"
+            },
+            {
+                "name": "greenery:items/butterfly_net/woosh1"
+            },
+            {
+                "name": "greenery:items/butterfly_net/woosh2"
+            },
+            {
+                "name": "greenery:items/butterfly_net/woosh3"
+            },
+            {
+                "name": "greenery:items/butterfly_net/woosh4"
+            },
+            {
+                "name": "greenery:items/butterfly_net/woosh5"
+            }
+        ],
+        "subtitle": "subtitle.greenery.butterfly_net.use"
     }
 }

@@ -4,10 +4,11 @@
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "item": {
-          "nbt": "{greenery:[{id:\"butterfly\"}]}"
+          "components": {
+            "minecraft:custom_data": "{greenery:[{id:\"butterfly\"}]}"
+          }
         },
         "entity": {
-          "type": "minecraft:interaction",
           "nbt": "{Tags:[\"greenery.butterfly_jar\"]}"
         }
       }

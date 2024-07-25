@@ -8,31 +8,18 @@
           "name": "minecraft:furnace",
           "functions": [
             {
-              "function": "minecraft:set_contents",
-              "type": "minecraft:furnace",
-              "entries": [
-                {
-                  "type": "minecraft:item",
-                  "name": "minecraft:furnace",
-                  "functions": [
-                    {
-                      "function": "minecraft:set_custom_data",
-                      "tag": "{jar_content:[],greenery_block: \"butterfly_jar\",greenery: [{id: \"butterfly_jar\"}], CustomModelData: 795007, BlockEntityTag: {Items: [{Slot: 0b, id: \"minecraft:furnace\", Count: 1b, tag: {CustomModelData: 795007, greenery_block: \"butterfly_jar\"}}], id: \"minecraft:furnace\"}, display: {Lore: ['{\"italic\":false,\"color\":\"white\",\"font\":\"greenery:tooltip\",\"extra\":[{\"text\":\" \"},{\"color\":\"green\",\"font\":\"minecraft:default\",\"translate\":\"pack.greenery\"}],\"translate\":\"lore.greenery.tooltip\"}'], Name: '{\"italic\":false,\"translate\":\"block.greenery.butterfly_jar\",\"fallback\":\"Butterfly Jar\"}'}}"
-                    }
-                  ]
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "jar_content": [],
+                  "greenery_block": "butterfly_jar",
+                  "greenery": "[{id: \"butterfly_jar\"}]"
                 }
-              ]
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": {
-                "translate": "block.greenery.butterfly_jar",
-                "fallback": "Butterfly Jar",
-                "italic": false
               }
             },
             {
               "function": "minecraft:set_lore",
+              "entity": "this",
               "lore": [
                 [
                   {
@@ -50,11 +37,79 @@
                     "font": "minecraft:default"
                   }
                 ]
-              ]
+              ],
+              "mode": "replace_all"
             },
             {
-              "function": "minecraft:set_custom_data",
-              "tag": "{jar_content:[],greenery:[{id:\"butterfly_jar\"}],CustomModelData:795049}"
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "translate": "block.greenery.butterfly_jar",
+                "fallback": "Butterfly Jar",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_custom_model_data",
+              "value": 795007
+            },
+            {
+              "function": "minecraft:set_contents",
+              "component": "minecraft:container",
+              "entries": [
+                {
+                  "type": "minecraft:item",
+                  "name": "minecraft:furnace",
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "minecraft:custom_data": {
+                          "jar_content": [],
+                          "greenery_block": "butterfly_jar",
+                          "greenery": "[{id: \"butterfly_jar\"}]"
+                        }
+                      }
+                    },
+                    {
+                      "function": "minecraft:set_lore",
+                      "entity": "this",
+                      "lore": [
+                        [
+                          {
+                            "translate": "lore.greenery.tooltip",
+                            "color": "white",
+                            "font": "greenery:tooltip",
+                            "italic": false
+                          },
+                          {
+                            "text": " "
+                          },
+                          {
+                            "translate": "pack.greenery",
+                            "color": "green",
+                            "font": "minecraft:default"
+                          }
+                        ]
+                      ],
+                      "mode": "replace_all"
+                    },
+                    {
+                      "function": "minecraft:set_name",
+                      "entity": "this",
+                      "name": {
+                        "translate": "block.greenery.butterfly_jar",
+                        "fallback": "Butterfly Jar",
+                        "italic": false
+                      }
+                    },
+                    {
+                      "function": "minecraft:set_custom_model_data",
+                      "value": 795007
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }

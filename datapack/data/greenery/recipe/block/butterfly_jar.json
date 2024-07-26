@@ -1,5 +1,6 @@
 {
     "type": "minecraft:crafting_shaped",
+    "category": "building",
     "pattern": [
         " # ",
         "# #",
@@ -11,7 +12,39 @@
         }
     },
     "result": {
-        "item": "minecraft:knowledge_book",
-        "count": 1
+        "id": "furnace",
+        "components": {
+            "minecraft:custom_model_data": 795049,
+            "minecraft:custom_data": {
+                "jar_content": [],
+                "greenery_block": "butterfly_jar",
+                "greenery": "[{id: \"butterfly_jar\"}]"
+            },
+            "minecraft:item_name": "{\"translate\":\"block.greenery.butterfly_jar\"}",
+            "minecraft:lore": [
+                "[{\"translate\": \"lore.greenery.tooltip\",\"color\": \"white\",\"font\": \"greenery:tooltip\",\"italic\": false},{\"text\": \" \"},{\"translate\": \"pack.greenery\",\"color\": \"green\",\"font\": \"minecraft:default\"}]"
+            ],
+            "minecraft:container": [
+                {
+					"slot": 0,
+					"item": {
+						"id": "minecraft:furnace",
+						"count": 1,
+						"components": {
+							"minecraft:custom_model_data": 795007,
+                            "minecraft:custom_data": {
+                            "jar_content": [],
+                            "greenery_block": "butterfly_jar",
+                            "greenery": "[{id: \"butterfly_jar\"}]"
+                        },
+                        "minecraft:item_name": "{\"translate\":\"block.greenery.butterfly_jar\"}",
+                        "minecraft:lore": [
+                            "[{\"translate\": \"lore.greenery.tooltip\",\"color\": \"white\",\"font\": \"greenery:tooltip\",\"italic\": false},{\"text\": \" \"},{\"translate\": \"pack.greenery\",\"color\": \"green\",\"font\": \"minecraft:default\"}]"
+                        ]
+						}
+					}
+				}
+            ]
+        }
     }
 }

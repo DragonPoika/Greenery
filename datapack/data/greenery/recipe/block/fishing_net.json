@@ -1,9 +1,10 @@
 {
     "type": "minecraft:crafting_shaped",
+    "category": "misc",
     "pattern": [
+        "CCC",
         "###",
-        "###",
-        "CCC"
+        "###"
     ],
     "key": {
         "#": {
@@ -14,6 +15,39 @@
         }
     },
     "result": {
-        "item": "knowledge_book"
+        "id": "furnace",
+        "components": {
+            "minecraft:custom_model_data": 795010,
+            "minecraft:custom_data": {
+                "case_content": [],
+                "greenery_block": "fishing_net",
+                "greenery": "[{id: \"fishing_net\"}]"
+            },
+            "minecraft:item_name": "{\"translate\":\"block.greenery.fishing_net\"}",
+            "minecraft:lore": [
+                "[{\"translate\": \"lore.greenery.tooltip\",\"color\": \"white\",\"font\": \"greenery:tooltip\",\"italic\": false},{\"text\": \" \"},{\"translate\": \"pack.greenery\",\"color\": \"green\",\"font\": \"minecraft:default\"}]"
+            ],
+            "minecraft:container": [
+                {
+					"slot": 0,
+					"item": {
+						"id": "minecraft:furnace",
+						"count": 1,
+						"components": {
+							"minecraft:custom_model_data": 795005,
+                            "minecraft:custom_data": {
+                                "case_content": [],
+                                "greenery_block": "fishing_net",
+                                "greenery": "[{id: \"fishing_net\"}]"
+                        },
+                        "minecraft:item_name": "{\"translate\":\"block.greenery.fishing_net\"}",
+                        "minecraft:lore": [
+                            "[{\"translate\": \"lore.greenery.tooltip\",\"color\": \"white\",\"font\": \"greenery:tooltip\",\"italic\": false},{\"text\": \" \"},{\"translate\": \"pack.greenery\",\"color\": \"green\",\"font\": \"minecraft:default\"}]"
+                        ]
+						}
+					}
+				}
+            ]
+        }
     }
 }

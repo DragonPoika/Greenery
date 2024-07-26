@@ -8,31 +8,18 @@
           "name": "minecraft:furnace",
           "functions": [
             {
-              "function": "minecraft:set_contents",
-              "type": "minecraft:furnace",
-              "entries": [
-                {
-                  "type": "minecraft:item",
-                  "name": "minecraft:furnace",
-                  "functions": [
-                    {
-                      "function": "minecraft:set_custom_data",
-                      "tag": "{case_content:[],greenery_block: \"display_case\",greenery: [{id: \"display_case\"}], CustomModelData: 795000, BlockEntityTag: {Items: [{Slot: 0b, id: \"minecraft:furnace\", Count: 1b, tag: {CustomModelData: 795000, greenery_block: \"display_case\"}}], id: \"minecraft:furnace\"}, display: {Lore: ['{\"italic\":false,\"color\":\"white\",\"font\":\"greenery:tooltip\",\"extra\":[{\"text\":\" \"},{\"color\":\"green\",\"font\":\"minecraft:default\",\"translate\":\"pack.greenery\"}],\"translate\":\"lore.greenery.tooltip\"}'], Name: '{\"italic\":false,\"translate\":\"block.greenery.display_case\",\"fallback\":\"Display Case\"}'}}"
-                    }
-                  ]
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "jar_content": [],
+                  "greenery_block": "display_case",
+                  "greenery": "[{id: \"display_case\"}]"
                 }
-              ]
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": {
-                "translate": "block.greenery.display_case",
-                "fallback": "Display Case",
-                "italic": false
               }
             },
             {
               "function": "minecraft:set_lore",
+              "entity": "this",
               "lore": [
                 [
                   {
@@ -50,11 +37,79 @@
                     "font": "minecraft:default"
                   }
                 ]
-              ]
+              ],
+              "mode": "replace_all"
             },
             {
-              "function": "minecraft:set_custom_data",
-              "tag": "{case_content:[],greenery:[{id:\"display_case\"}],CustomModelData:795000}"
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "translate": "block.greenery.display_case",
+                "fallback": "Display Case",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_custom_model_data",
+              "value": 795000
+            },
+            {
+              "function": "minecraft:set_contents",
+              "component": "minecraft:container",
+              "entries": [
+                {
+                  "type": "minecraft:item",
+                  "name": "minecraft:furnace",
+                  "functions": [
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "minecraft:custom_data": {
+                          "case_content": [],
+                          "greenery_block": "display_case",
+                          "greenery": "[{id: \"display_case\"}]"
+                        }
+                      }
+                    },
+                    {
+                      "function": "minecraft:set_lore",
+                      "entity": "this",
+                      "lore": [
+                        [
+                          {
+                            "translate": "lore.greenery.tooltip",
+                            "color": "white",
+                            "font": "greenery:tooltip",
+                            "italic": false
+                          },
+                          {
+                            "text": " "
+                          },
+                          {
+                            "translate": "pack.greenery",
+                            "color": "green",
+                            "font": "minecraft:default"
+                          }
+                        ]
+                      ],
+                      "mode": "replace_all"
+                    },
+                    {
+                      "function": "minecraft:set_name",
+                      "entity": "this",
+                      "name": {
+                        "translate": "block.greenery.display_case",
+                        "fallback": "Display Case",
+                        "italic": false
+                      }
+                    },
+                    {
+                      "function": "minecraft:set_custom_model_data",
+                      "value": 795000
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }

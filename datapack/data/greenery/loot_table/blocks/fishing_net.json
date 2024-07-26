@@ -17,7 +17,7 @@
               "entries": [
                 {
                   "type": "minecraft:item",
-                  "name": "minecraft:furnace",
+                  "name": "minecraft:cookie",
                   "functions": [
                     {
                       "function": "minecraft:set_lore",
@@ -51,7 +51,16 @@
                     },
                     {
                       "function": "minecraft:set_custom_model_data",
-                      "value": 795010
+                      "value": 795005
+                    },
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "minecraft:custom_data": {
+                          "greenery_block": "fishing_net",
+                          "greenery": "[{id: \"fishing_net\"}]"
+                        }
+                      }
                     }
                   ]
                 }
@@ -86,6 +95,15 @@
                 ]
               ],
               "mode": "insert"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "greenery_block": "fishing_net",
+                  "greenery": "[{id: \"fishing_net\"}]"
+                }
+              }
             }
           ]
         }

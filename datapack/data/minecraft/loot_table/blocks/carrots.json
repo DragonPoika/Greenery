@@ -24,7 +24,7 @@
           },
           {
             "type": "minecraft:loot_table",
-            "name": "greenery:items/cave_carrot",
+            "value": "greenery:items/cave_carrot",
             "conditions": [
               {
                 "condition": "minecraft:location_check",
@@ -75,7 +75,7 @@
           },
           {
             "type": "minecraft:loot_table",
-            "name": "greenery:items/cave_carrot",
+            "value": "greenery:items/cave_carrot",
             "functions": [
               {
                 "function": "minecraft:apply_bonus",

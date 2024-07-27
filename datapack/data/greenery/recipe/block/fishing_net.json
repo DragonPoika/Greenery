@@ -19,7 +19,6 @@
         "components": {
             "minecraft:custom_model_data": 795010,
             "minecraft:custom_data": {
-                "case_content": [],
                 "greenery_block": "fishing_net",
                 "greenery": "[{id: \"fishing_net\"}]"
             },
@@ -31,12 +30,11 @@
                 {
 					"slot": 0,
 					"item": {
-						"id": "minecraft:furnace",
+						"id": "minecraft:cookie",
 						"count": 1,
 						"components": {
 							"minecraft:custom_model_data": 795005,
                             "minecraft:custom_data": {
-                                "case_content": [],
                                 "greenery_block": "fishing_net",
                                 "greenery": "[{id: \"fishing_net\"}]"
                         },

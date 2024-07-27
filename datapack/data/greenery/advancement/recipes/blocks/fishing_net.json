@@ -1,0 +1,21 @@
+{
+    "parent": "greenery:recipes/blocks/root",
+    "criteria": {
+      "has_the_recipe": {
+        "conditions": {
+          "recipe": "minecraft:fishing_rod"
+        },
+        "trigger": "minecraft:recipe_unlocked"
+      }
+    },
+    "requirements": [
+      [
+        "has_the_recipe"
+      ]
+    ],
+    "rewards": {
+      "recipes": [
+        "greenery:block/fishing_net"
+      ]
+    }
+  }

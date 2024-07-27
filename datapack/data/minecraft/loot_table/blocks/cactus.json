@@ -13,7 +13,7 @@
           {
             "type": "minecraft:loot_table",
             "weight": 1,
-            "name": "greenery:items/cactus_fruit",
+            "value": "greenery:items/cactus_fruit",
             "functions": [
               {
                 "function": "minecraft:set_count",

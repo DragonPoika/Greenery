@@ -35,8 +35,7 @@
         "minecraft:item_name": "{\"translate\":\"item.greenery.crystallized_beet\"}",
         "minecraft:lore": [
           "[{\"translate\": \"lore.greenery.tooltip\",\"color\": \"white\",\"font\": \"greenery:tooltip\",\"italic\": false},{\"text\": \" \"},{\"translate\": \"pack.greenery\",\"color\": \"green\",\"font\": \"minecraft:default\"}]"
-        ],
-        "minecraft:enchantment_glint_override": true
+        ]
       }
     }
 }

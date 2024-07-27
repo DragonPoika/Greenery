@@ -36,5 +36,41 @@
       ]
     }
   ],
-  "random_sequence": "minecraft:blocks/dirt"
+  "random_sequence": "minecraft:blocks/dirt",
+  "__smithed__": {
+    "rules": [
+      {
+        "type": "weld:append",
+        "target": "pools[0].entries[0].conditions",
+        "source": {
+          "type": "weld:reference",
+          "path": "pools[0].entries[0].conditions[0]"
+        }
+      },
+      {
+        "type": "weld:append",
+        "target": "pools[0].entries",
+        "source": {
+          "type": "weld:reference",
+          "path": "pools[0].entries[1]"
+        }
+      },
+      {
+        "type": "weld:append",
+        "target": "pools[1].entries[0].conditions",
+        "source": {
+          "type": "weld:reference",
+          "path": "pools[1].entries[0].conditions[0]"
+        }
+      },
+      {
+        "type": "weld:append",
+        "target": "pools[1].entries",
+        "source": {
+          "type": "weld:reference",
+          "path": "pools[1].entries[1]"
+        }
+      }
+    ]
+  }
 }

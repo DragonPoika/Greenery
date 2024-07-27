@@ -1,43 +1,79 @@
 {
-  "type": "minecraft:block",
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:loot_table",
-          "name": "greenery:items/worm"
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "greenery:items/worm"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:random_chance",
+					"chance": 0.25
+				},
+				{
+					"condition": "minecraft:block_state_property",
+					"block": "minecraft:farmland",
+					"properties": {
+						"moisture": "7"
+					}
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:dirt"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	],
+	"random_sequence": "minecraft:blocks/farmland",
+  "__smithed__": {
+    "rules": [
+      {
+        "type": "weld:append",
+        "target": "pools[0].entries[0].conditions",
+        "source": {
+          "type": "weld:reference",
+          "path": "pools[0].entries[0].conditions[0]"
         }
-      ],
-      "conditions": [
-        {
-          "condition": "minecraft:random_chance",
-          "chance": 0.25
-        },
-        {
-          "condition": "minecraft:block_state_property",
-          "block": "minecraft:farmland",
-          "properties": {
-            "moisture": "7"
-          }
+      },
+      {
+        "type": "weld:append",
+        "target": "pools[0].entries",
+        "source": {
+          "type": "weld:reference",
+          "path": "pools[0].entries[1]"
         }
-      ]
-    },
-    {
-      "rolls": 1,
-      "bonus_rolls": 0,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:dirt"
+      },
+      {
+        "type": "weld:append",
+        "target": "pools[1].entries[0].conditions",
+        "source": {
+          "type": "weld:reference",
+          "path": "pools[1].entries[0].conditions[0]"
         }
-      ],
-      "conditions": [
-        {
-          "condition": "minecraft:survives_explosion"
+      },
+      {
+        "type": "weld:append",
+        "target": "pools[1].entries",
+        "source": {
+          "type": "weld:reference",
+          "path": "pools[1].entries[1]"
         }
-      ]
-    }
-  ],
-  "random_sequence": "minecraft:blocks/farmland"
+      }
+    ]
+  }
 }

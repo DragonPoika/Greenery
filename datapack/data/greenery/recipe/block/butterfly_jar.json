@@ -14,7 +14,7 @@
     "result": {
         "id": "furnace",
         "components": {
-            "minecraft:custom_model_data": 795049,
+            "minecraft:custom_model_data": 795007,
             "minecraft:custom_data": {
                 "jar_content": [],
                 "greenery_block": "butterfly_jar",

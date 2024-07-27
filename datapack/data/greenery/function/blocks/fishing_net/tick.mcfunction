@@ -3,7 +3,7 @@
     execute if block ~ ~1 ~ trapped_chest[waterlogged=true] run scoreboard players remove @s[scores={greenery.fishnet_cd=1..}] greenery.fishnet_cd 1
 
     #Cooldown = 2min && Insert Loot
-        execute if score @s greenery.fishnet_cd matches 0 run loot insert ~ ~1 ~ loot greenery:gameplay/fishing/fishing_net_insert
+        execute if score @s greenery.fishnet_cd matches 0 run function greenery:blocks/fishing_net/insert_loot
         execute unless score @s greenery.fishnet_cd matches 0.. run scoreboard players set @s greenery.fishnet_cd 2400
         scoreboard players set @s[scores={greenery.fishnet_cd=0}] greenery.fishnet_cd 2400
 

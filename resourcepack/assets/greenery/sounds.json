@@ -28,5 +28,14 @@
             }
         ],
         "subtitle": "subtitle.greenery.butterfly_net.use"
+    },
+    "block.fishing_net.catch": {
+        "sounds": [
+            {
+                "name": "random/splash",
+                "volume": 0.35
+            }
+        ],
+        "subtitle": "subtitles.greenery.fishing_net.catch"
     }
 }

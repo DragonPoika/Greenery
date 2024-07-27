@@ -70,5 +70,6 @@
     "advancement.greenery.flowerpower": "Flower power!",
     "advancement.greenery.flowerpower.description": "Obtain every small flower.",
 
-    "subtitle.greenery.butterfly_net.use": "Butterfly Net Swooshes"
+    "subtitle.greenery.butterfly_net.use": "Butterfly Net swooshes",
+    "subtitles.greenery.fishing_net.catch": "Fishing Net catches something"
 }

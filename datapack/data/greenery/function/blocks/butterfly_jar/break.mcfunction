@@ -7,7 +7,7 @@ data modify entity @e[type=armor_stand,tag=greenery.butterfly_jar,limit=1,sort=n
 data modify entity @e[type=armor_stand,tag=greenery.butterfly_jar,limit=1,sort=nearest] HandItems[0].components."minecraft:container"[0].item merge from entity @e[type=armor_stand,tag=greenery.butterfly_jar,limit=1,sort=nearest] HandItems[0]
 data modify entity @e[type=armor_stand,tag=greenery.butterfly_jar,limit=1,sort=nearest] HandItems[0].components."minecraft:custom_data".jar_content set from entity @e[type=marker,tag=greenery.butterfly_jar,limit=1,sort=nearest] data.jar_content
 data modify entity @e[type=armor_stand,tag=greenery.butterfly_jar,limit=1,sort=nearest] HandItems[0].components."minecraft:container"[0].item.components."minecraft:custom_data".jar_content set from entity @e[type=marker,tag=greenery.butterfly_jar,limit=1,sort=nearest] data.jar_content
-data modify entity @e[type=armor_stand,tag=greenery.butterfly_jar,limit=1,sort=nearest] HandItems[0].components."minecraft:custom_model_data" set value 795049
+data modify entity @e[type=armor_stand,tag=greenery.butterfly_jar,limit=1,sort=nearest] HandItems[0].components."minecraft:custom_model_data" set value 795050
 item replace entity @p[tag=greenery.pick_up] weapon.mainhand from entity @e[type=armor_stand,tag=greenery.butterfly_jar,limit=1,sort=nearest] weapon.mainhand
 tag @p[tag=greenery.pick_up] remove greenery.pick_up
 kill @e[type=armor_stand,tag=greenery.butterfly_jar,limit=1,sort=nearest]

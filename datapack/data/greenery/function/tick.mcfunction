@@ -8,6 +8,8 @@ execute as @a at @s run function greenery:replant/block_check
         execute as @e[type=bee,tag=!greenery.checked] at @s run function greenery:butterfly/check
         execute as @e[type=fishing_bobber,tag=!greenery.checked] at @s run function greenery:fishing/bobber
         execute as @a[scores={greenery.armor_stand_used=1..}] run execute as @e[type=armor_stand,tag=greenery.seed_assortment] at @s run function greenery:blocks/place_seed_assortment
+        # Butterfly Jar Interaction Fix
+            execute at @a as @e[type=interaction,tag=greenery.butterfly_jar,distance=..7] if data entity @s interaction run data remove entity @s interaction
     # Blocks
         execute as @e[type=item_display,tag=greenery.fishing_net] at @s run function greenery:blocks/fishing_net/tick
         execute as @e[type=item_display,tag=greenery.beehive] at @s unless block ~ ~-0.5 ~ minecraft:fletching_table run function greenery:blocks/beehive/break

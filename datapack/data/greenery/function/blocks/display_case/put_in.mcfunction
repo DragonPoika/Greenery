@@ -21,5 +21,3 @@ execute as @e[type=interaction,tag=greenery.display_case,distance=..7] if data e
 execute as @e[type=interaction,tag=greenery.display_case,distance=..7] if data entity @s interaction at @s as @e[type=item_display,tag=greenery.display_case,limit=1,sort=nearest] if data entity @s {item:{components:{"minecraft:custom_model_data":795000}}} run data merge entity @s {item:{components:{"minecraft:custom_model_data":795001}}}
 execute as @e[type=interaction,tag=greenery.display_case,distance=..7] if data entity @s interaction run data remove entity @s interaction
 tag @s remove greenery.put_in
-
-say wah

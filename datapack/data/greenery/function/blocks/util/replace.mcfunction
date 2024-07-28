@@ -42,4 +42,3 @@ scoreboard players add @e[type=item_display,tag=greenery.hanging_flower_pot,tag=
 execute as @e[type=item_display,tag=greenery.hanging_flower_pot,tag=greenery.new_block,limit=1,sort=nearest] store result entity @s item.components."minecraft:custom_model_data" int 1 run scoreboard players get @s greenery.cmd
 execute as @e[type=item_display,tag=greenery.hanging_flower_pot,tag=greenery.new_block,limit=1,sort=nearest] run setblock ~ ~ ~ flower_pot
 tag @e remove greenery.new_block
-say replace

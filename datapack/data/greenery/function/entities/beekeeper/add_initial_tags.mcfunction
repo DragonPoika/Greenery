@@ -28,4 +28,3 @@ data modify entity @s Offers.Recipes[1].sell set from entity @s HandItems[1]
 
 item replace entity @s weapon.mainhand with minecraft:leather_horse_armor[custom_model_data=795001]
 item replace entity @s weapon.offhand with air
-say Initialtags

@@ -21,7 +21,8 @@ scoreboard objectives add greenery.armor_stand_used used:armor_stand
 
 # WOW! What a wonderful amount of scoreboard objectives. 4/14 of these are Toast's. Just a, fun fact. Well, maybe not *fun* fact but, eh. 28.571428571429% of the scoreboards are placed there by me. Twenty-eight-point-five-seven-one-four-two-nine percent. Two in every 57.142857142858. I gues that doesn't help much. Oops! Misssed an S. Added an extra one to that word there. Weird name for a function, "init.mcfunction". I know, I know, init short for initial. But... "mcfunction, innit?". Hehe, brits, eh? That "eh?" in the end was maybe a little too Canadian. I think I should just code. wait- noo o o -   d o n 't t a ke m e yeeeeeeet------
 
-
+scoreboard objectives add greenery.custom_item_menu trigger
+scoreboard players enable @a greenery.custom_item_menu
 
 
 team add greenery.no_nametag

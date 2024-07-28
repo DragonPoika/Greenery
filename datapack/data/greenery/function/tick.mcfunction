@@ -16,5 +16,7 @@ execute as @a at @s run function greenery:replant/block_check
         execute as @e[type=item_display,tag=greenery.beehive] at @s run function greenery:blocks/beehive/tick
         execute as @e[type=item_display,tag=greenery.hanging_flower_pot] at @s unless block ~ ~ ~ #minecraft:flower_pots run function greenery:blocks/hanging_flower_pot/break
         execute as @e[type=interaction,tag=greenery.wide_flower_pot] at @s run function greenery:blocks/wide_flower_pot/tick
+    # Trigger
+        execute as @e[scores={greenery.custom_item_menu=1..}] run function greenery:trigger/custom_items
 
 scoreboard players reset @a greenery.wfoas

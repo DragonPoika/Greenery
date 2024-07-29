@@ -30,7 +30,15 @@
         },
         "minecraft:food": {
           "nutrition": 6,
-          "saturation": 14.4
+          "saturation": 14.4,
+          "effects": [
+            {
+              "effect": {
+                "id": "night_vision",
+                "duration": 300
+              }
+            }
+          ]
         },
         "minecraft:item_name": "{\"translate\":\"item.greenery.enchanted_crystallized_beet\"}",
         "minecraft:lore": [

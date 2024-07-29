@@ -49,7 +49,19 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:enchantment_glint_override": true
+                "minecraft:enchantment_glint_override": true,
+                "minecraft:food": {
+                  "nutrition": 6,
+                  "saturation": 14.4,
+                  "effects": [
+                    {
+                      "effect": {
+                        "id": "night_vision",
+                        "duration": 300
+                      }
+                    }
+                  ]
+                }
               }
             }
           ]

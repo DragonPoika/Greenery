@@ -3,47 +3,41 @@
     "category": "misc",
     "ingredients": [
         {
-            "item": "minecraft:sugar"
+            "item": "minecraft:glowstone_dust"
         },
         {
-            "item": "minecraft:milk_bucket"
+            "item": "minecraft:glowstone_dust"
         },
         {
-            "item": "minecraft:spider_eye"
-        },
-        {
-            "item": "minecraft:spider_eye"
+            "item": "minecraft:honey_bottle"
         }
     ],
     "result": {
-      "id": "minecraft:cooked_chicken",
+      "id": "minecraft:honey_bottle",
       "count": 1,
       "components": {
-        "minecraft:custom_model_data": 795002,
         "minecraft:custom_data": {
           "greenery": {
-            "id": "poison_pop"
+            "id": "royal_jelly"
           }
         },
         "minecraft:food": {
-          "nutrition": 2,
-          "saturation": 0.4,
-          "using_converts_to": {
-            "id": "minecraft:stick"
-          },
+          "nutrition": 8,
+          "saturation": 1.6,
           "effects": [
             {
-              "effect": {
-                "id": "poison",
-                "duration": 100
-              }
+                "effect": {
+                    "id": "regeneration",
+                    "duration": 200
+                }
             }
           ]
         },
-        "minecraft:item_name": "{\"translate\":\"item.greenery.poison_pop\"}",
+        "minecraft:item_name": "{\"translate\":\"item.greenery.royal_jelly\"}",
         "minecraft:lore": [
           "[{\"translate\": \"lore.greenery.tooltip\",\"color\": \"white\",\"font\": \"greenery:tooltip\",\"italic\": false},{\"text\": \" \"},{\"translate\": \"pack.greenery\",\"color\": \"green\",\"font\": \"minecraft:default\"}]"
-        ]
+        ],
+        "minecraft:enchantment_glint_override": true
       }
     }
 }

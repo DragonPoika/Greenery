@@ -10,6 +10,8 @@ execute as @a at @s run function greenery:replant/block_check
         execute as @a[scores={greenery.armor_stand_used=1..}] run execute as @e[type=armor_stand,tag=greenery.seed_assortment] at @s run function greenery:blocks/place_seed_assortment
         # Interaction Fix
             execute at @a as @e[type=interaction,distance=..7] if data entity @s interaction run data remove entity @s interaction
+        # Butterfly rotation
+        execute as @e[type=item_display,tag=greenery.butterfly] at @s on vehicle run data modify entity @n[type=item_display,tag=greenery.butterfly] Rotation set from entity @s Rotation
     # Blocks
         execute as @e[type=item_display,tag=greenery.fishing_net] at @s run function greenery:blocks/fishing_net/tick
         execute as @e[type=item_display,tag=greenery.beehive] at @s unless block ~ ~-0.5 ~ minecraft:fletching_table run function greenery:blocks/beehive/break

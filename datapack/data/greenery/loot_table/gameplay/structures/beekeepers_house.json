@@ -1,0 +1,65 @@
+{
+	"pools": [
+		{
+			"rolls": {
+				"min": 10,
+				"max": 12
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:honeycomb",
+					"weight": 70
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:glass_bottle",
+					"weight": 10
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:honey_bottle",
+					"weight": 20
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:shears"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "greenery:items/royal_jelly"
+				}
+			]
+		},
+		{
+			"rolls": 2,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:stick",
+                    "weight": 5
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:oak_log",
+                    "weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:coal",
+                    "weight": 2
+				}
+			]
+		}
+	]
+}

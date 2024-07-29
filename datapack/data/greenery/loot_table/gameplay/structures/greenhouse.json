@@ -1,0 +1,38 @@
+{
+	"pools": [
+		{
+			"rolls": {
+				"min": 8,
+				"max": 13
+			},
+			"entries": [
+				{
+					"type": "minecraft:tag",
+					"name": "minecraft:flowers",
+					"expand": true,
+					"weight": 65
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:honeycomb",
+					"weight": 35
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "greenery:items/music_disc",
+					"weight": 75
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "greenery:items/royal_jelly",
+					"weight": 25
+				}
+			]
+		}
+	]
+}

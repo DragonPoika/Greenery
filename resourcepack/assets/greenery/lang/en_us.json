@@ -67,6 +67,8 @@
     "advancement.greenery.catch_all_butterflies.description": "Catch every kind of butterfly.",
     "advancement.greenery.flowerpower": "Flower power!",
     "advancement.greenery.flowerpower.description": "Obtain every small flower.",
+    "advancement.greenery.craft_fishing_net": "Welcome to the Fishing Net!",
+    "advancement.greenery.craft_fishing_net.description": "Craft a Fishing Net",
 
     "subtitle.greenery.butterfly_net.use": "Butterfly Net swooshes",
     "subtitles.greenery.fishing_net.catch": "Fishing Net catches something"

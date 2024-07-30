@@ -5,13 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:emerald",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 2
-            }
-          ]
+          "name": "minecraft:shears"
         }
       ]
     },
@@ -20,7 +14,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:shears"
+          "name": "minecraft:emerald"
         }
       ]
     }

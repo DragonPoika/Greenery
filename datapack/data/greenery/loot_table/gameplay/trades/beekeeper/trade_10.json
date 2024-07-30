@@ -11,7 +11,7 @@
                 "function": "minecraft:set_count",
                 "count": {
                   "min": 5,
-                  "max": 64
+                  "max": 18
                 }
               }
             ]
@@ -22,8 +22,8 @@
         "rolls": 1,
         "entries": [
           {
-            "type": "minecraft:item",
-            "name": "minecraft:torchflower_seeds"
+            "type": "minecraft:loot_table",
+            "value": "greenery:items/royal_jelly"
           }
         ]
       }

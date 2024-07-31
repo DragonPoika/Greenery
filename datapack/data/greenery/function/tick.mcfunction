@@ -6,6 +6,7 @@ execute as @a at @s run function greenery:replant/block_check
     # Entities
         execute as @e[type=villager,tag=greenery.beekeeper] at @s run function greenery:entities/beekeeper/tick
         execute as @e[tag=greenery.butterfly_part] at @s run function greenery:butterfly/tick
+        execute as @a at @s as @e[distance=..80,predicate=greenery:butterfly/spawns_butterfly] at @s run function greenery:butterfly/check
         execute as @e[type=fishing_bobber,tag=!greenery.checked] at @s run function greenery:fishing/bobber
         execute as @a[scores={greenery.armor_stand_used=1..}] run execute as @e[type=armor_stand,tag=greenery.seed_assortment] at @s run function greenery:blocks/place_seed_assortment
         # Interaction Fix

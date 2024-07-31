@@ -1,0 +1,43 @@
+{
+  "condition": "minecraft:all_of",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "greenery:butterfly/normal_biome"
+    },
+    {
+      "condition": "minecraft:inverted",
+      "term": {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "nbt": "{Tags:[\"greenery.butterfly_part\"]}"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:inverted",
+      "term": {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "nbt": "{Tags:[\"greenery.checked\"]}"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": [
+          "minecraft:pig",
+          "minecraft:cow",
+          "minecraft:bee",
+          "minecraft:sheep",
+          "minecraft:chicken",
+          "minecraft:horse"
+        ]
+      }
+    }
+  ]
+}

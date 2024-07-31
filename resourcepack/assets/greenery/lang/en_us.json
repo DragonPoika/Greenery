@@ -72,5 +72,9 @@
     "advancement.greenery.craft_fishing_net.description": "Craft a Fishing Net",
 
     "subtitle.greenery.butterfly_net.use": "Butterfly Net swooshes",
-    "subtitles.greenery.fishing_net.catch": "Fishing Net catches something"
+    "subtitles.greenery.fishing_net.catch": "Fishing Net catches something",
+    "subtitles.greenery.butterfly_jar.put_in": "Butterfly Jar fills",
+    "subtitles.greenery.butterfly_jar.take_out": "Butterfly Jar empties",
+    "subtitles.greenery.display_case.put_in": "Display Case fills",
+    "subtitles.greenery.display_case.take_out": "Display Case empties"
 }

@@ -30,7 +30,7 @@ With additions to bees, fishing, crops and flowers the pack has lot of features 
 </div>
 <div align="center">
   <h2>Flower Pots</h2>
-  <img src="https://github.com/DragonPoika/Greenery/blob/main/images/flower_pots.png?raw=true">
+  <img src="https://github.com/DragonPoika/Greenery/blob/main/images/flowerpots.png?raw=true">
   <p align="center">
     Greenery adds 2 new flower pots, hanging flower pots and wide flower pots. They can hold all plants that vanilla flower pots can!
   </p>

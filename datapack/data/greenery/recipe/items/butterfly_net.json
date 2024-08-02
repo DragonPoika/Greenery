@@ -23,9 +23,9 @@
       "components": {
         "minecraft:custom_model_data": 795000,
         "minecraft:custom_data": {
-          "greenery": {
+          "greenery": [{
             "id": "butterfly_net"
-          }
+          }]
         },
         "minecraft:item_name": "{\"translate\":\"item.greenery.butterfly_net\"}",
         "minecraft:lore": [

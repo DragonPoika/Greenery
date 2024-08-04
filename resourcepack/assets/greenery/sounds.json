@@ -1,8 +1,9 @@
 {
-    "music_disc.flight_of_the_bumblebee": {
+    "music_disc.fauna": {
         "sounds": [
             {
-              "name": "greenery:music_disc/flight_of_the_bumblebee"
+              "name": "greenery:music_disc/fauna",
+              "stream": true
             }
         ]
     },

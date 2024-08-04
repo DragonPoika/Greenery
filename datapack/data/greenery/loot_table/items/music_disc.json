@@ -8,15 +8,6 @@
 					"name": "minecraft:music_disc_far",
 					"functions": [
 						{
-							"function": "minecraft:set_name",
-							"target": "item_name",
-							"name": {
-								"translate": "item.greenery.music_disc",
-								"fallback": "Placeholder Disc",
-								"italic": false
-							}
-						},
-						{
 							"function": "minecraft:set_lore",
 							"lore": [
 								[
@@ -50,7 +41,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:jukebox_playable": {
-									"song": "greenery:flight_of_the_bumblebee"
+									"song": "greenery:fauna"
 								}
 							}
 						}

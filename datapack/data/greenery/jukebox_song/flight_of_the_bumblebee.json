@@ -1,8 +1,0 @@
-{
-    "description": "Flight of the Bumblebee",
-    "length_in_seconds": 79,
-    "sound_event": {
-        "sound_id": "greenery:music_disc.flight_of_the_bumblebee"
-    },
-    "comparator_output": 7
-}

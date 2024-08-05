@@ -1,7 +1,7 @@
 {
     "values": [
-        "air",
-        "cave_air",
-        "void_air"
+        "#air",
+        "#small_flowers",
+        "#saplings"
     ]
 }

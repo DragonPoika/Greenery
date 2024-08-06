@@ -12,7 +12,37 @@
         }
     ],
     "result": {
-        "item": "minecraft:knowledge_book",
-        "count": 1
+        "id": "furnace",
+        "components": {
+            "minecraft:custom_model_data": 795012,
+            "minecraft:custom_data": {
+                "greenery_block": "wide_flower_pot",
+                "greenery": "[{id: \"wide_flower_pot\"}]"
+            },
+            "minecraft:item_name": "{\"translate\":\"block.greenery.wide_flower_pot\"}",
+            "minecraft:lore": [
+                "[{\"translate\": \"lore.greenery.tooltip\",\"color\": \"white\",\"font\": \"greenery:tooltip\",\"italic\": false},{\"text\": \" \"},{\"translate\": \"pack.greenery\",\"color\": \"green\",\"font\": \"minecraft:default\"}]"
+            ],
+            "minecraft:container": [
+                {
+					"slot": 0,
+					"item": {
+						"id": "minecraft:furnace",
+						"count": 1,
+						"components": {
+							"minecraft:custom_model_data": 795012,
+                            "minecraft:custom_data": {
+                                "greenery_block": "wide_flower_pot",
+                                "greenery": "[{id: \"wide_flower_pot\"}]"
+                        },
+                        "minecraft:item_name": "{\"translate\":\"block.greenery.wide_flower_pot\"}",
+                        "minecraft:lore": [
+                            "[{\"translate\": \"lore.greenery.tooltip\",\"color\": \"white\",\"font\": \"greenery:tooltip\",\"italic\": false},{\"text\": \" \"},{\"translate\": \"pack.greenery\",\"color\": \"green\",\"font\": \"minecraft:default\"}]"
+                        ]
+						}
+					}
+				}
+            ]
+        }
     }
 }

@@ -28,6 +28,7 @@ scoreboard players enable @a greenery.custom_item_menu
 team add greenery.no_nametag
 team modify greenery.no_nametag nametagVisibility never
 
+function greenery:clocks/1s_clock
 
 # ignore this :3
 scoreboard objectives add greenery.seed_assortment_random dummy

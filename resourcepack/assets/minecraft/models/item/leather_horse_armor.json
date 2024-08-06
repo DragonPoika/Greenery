@@ -10,14 +10,17 @@
 		{"predicate": {"custom_model_data": 795004}, "model": "greenery:block/butterfly_jar/butterfly"},
 		{"predicate": {"custom_model_data": 795005}, "model": "greenery:block/hanging_flower_pot"},
 		{"predicate": {"custom_model_data": 795006}, "model": "greenery:block/wide_flower_pot/base"},
-		{"predicate": {"custom_model_data": 795010}, "model": "greenery:entity/butterfly/monarch"},
-		{"predicate": {"custom_model_data": 795011}, "model": "greenery:entity/butterfly/morpho"},
-		{"predicate": {"custom_model_data": 795012}, "model": "greenery:entity/butterfly/brimstone"},
 		{"predicate": {"custom_model_data": 795020}, "model": "greenery:block/display_case/empty"},
 		{"predicate": {"custom_model_data": 795021}, "model": "greenery:block/display_case/1"},
 		{"predicate": {"custom_model_data": 795022}, "model": "greenery:block/display_case/2"},
 		{"predicate": {"custom_model_data": 795023}, "model": "greenery:block/display_case/3"},
 		{"predicate": {"custom_model_data": 795024}, "model": "greenery:block/display_case/full"},
-		{"predicate": {"custom_model_data": 795025}, "model": "greenery:entity/queenbee"}
+		{"predicate": {"custom_model_data": 795025}, "model": "greenery:entity/queenbee"},
+		{"predicate": {"custom_model_data": 795010}, "model": "greenery:entity/butterfly/monarch"},
+		{"predicate": {"custom_model_data": 795011}, "model": "greenery:entity/butterfly/morpho"},
+		{"predicate": {"custom_model_data": 795012}, "model": "greenery:entity/butterfly/brimstone"},
+		{"predicate": {"custom_model_data": 795013}, "model": "greenery:entity/butterfly/peacock"},
+		{"predicate": {"custom_model_data": 795014}, "model": "greenery:entity/butterfly/rustic"},
+		{"predicate": {"custom_model_data": 795015}, "model": "greenery:entity/butterfly/jewel"}
 	]
 }

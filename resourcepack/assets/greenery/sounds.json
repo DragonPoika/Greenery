@@ -1,8 +1,8 @@
 {
-    "music_disc.fauna": {
+    "music_disc.bloom": {
         "sounds": [
             {
-              "name": "greenery:music_disc/fauna",
+              "name": "greenery:music_disc/bloom",
               "stream": true
             }
         ]

@@ -41,7 +41,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:jukebox_playable": {
-									"song": "greenery:fauna"
+									"song": "greenery:bloom"
 								}
 							}
 						}

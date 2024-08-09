@@ -1,12 +1,12 @@
-# execute if block ~1 ~ ~ water if block ~1 ~ ~ water run tag @s add greenery.water_found
+execute if block ~1 ~ ~ water if block ~1 ~ ~ water run tag @s add greenery.water_found
 execute if block ~1 ~ ~ water if block ~-1 ~ ~ water run tag @s add greenery.water_found
 execute if block ~-1 ~ ~ water if block ~1 ~ ~ water run tag @s add greenery.water_found
-# execute if block ~-1 ~ ~ water if block ~-1 ~ ~ water run tag @s add greenery.water_found
+execute if block ~-1 ~ ~ water if block ~-1 ~ ~ water run tag @s add greenery.water_found
 
-# execute if block ~ ~ ~1 water if block ~ ~ ~1 water run tag @s add greenery.water_found
+execute if block ~ ~ ~1 water if block ~ ~ ~1 water run tag @s add greenery.water_found
 execute if block ~ ~ ~1 water if block ~ ~ ~-1 water run tag @s add greenery.water_found
 execute if block ~ ~ ~-1 water if block ~ ~ ~1 water run tag @s add greenery.water_found
-# execute if block ~ ~ ~-1 water if block ~ ~ ~-1 water run tag @s add greenery.water_found
+execute if block ~ ~ ~-1 water if block ~ ~ ~-1 water run tag @s add greenery.water_found
 
 execute if block ~ ~ ~1 water if block ~1 ~ ~ water run tag @s add greenery.water_found
 execute if block ~ ~ ~1 water if block ~-1 ~ ~ water run tag @s add greenery.water_found

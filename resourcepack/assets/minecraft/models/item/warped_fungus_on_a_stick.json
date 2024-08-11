@@ -5,6 +5,7 @@
     },
       
       "overrides": [
-          {"predicate": {"custom_model_data":795000}, "model": "greenery:item/butterfly_net"}
+          {"predicate": {"custom_model_data":795000}, "model": "greenery:item/butterfly_net"},
+          {"predicate": {"custom_model_data":795001}, "model": "greenery:item/queen_bee_crown"}
       ]
   }

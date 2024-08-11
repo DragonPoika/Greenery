@@ -1,0 +1,51 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "building",
+    "ingredients": [
+        {
+            "item": "minecraft:chain"
+        },
+        {
+            "item": "minecraft:chain"
+        },
+        {
+            "item": "minecraft:flower_pot"
+        }
+    ],
+    "result": {
+        "id": "furnace",
+        "components": {
+            "minecraft:custom_model_data": 795005,
+            "minecraft:custom_data": {
+                "case_content": [],
+                "greenery_block": "hanging_flower_pot",
+                "greenery": "[{id: \"hanging_flower_pot\"}]"
+            },
+            "minecraft:item_name": "{\"translate\":\"block.greenery.hanging_flower_pot\"}",
+            "minecraft:lore": [
+                "[{\"translate\": \"lore.greenery.tooltip\",\"color\": \"white\",\"font\": \"greenery:tooltip\",\"italic\": false},{\"text\": \" \"},{\"translate\": \"pack.greenery\",\"color\": \"green\",\"font\": \"minecraft:default\"}]"
+            ],
+            "minecraft:container": [
+                {
+					"slot": 0,
+					"item": {
+						"id": "minecraft:furnace",
+						"count": 1,
+						"components": {
+							"minecraft:custom_model_data": 795005,
+                            "minecraft:custom_data": {
+                                "case_content": [],
+                                "greenery_block": "hanging_flower_pot",
+                                "greenery": "[{id: \"hanging_flower_pot\"}]"
+                        },
+                        "minecraft:item_name": "{\"translate\":\"block.greenery.hanging_flower_pot\"}",
+                        "minecraft:lore": [
+                            "[{\"translate\": \"lore.greenery.tooltip\",\"color\": \"white\",\"font\": \"greenery:tooltip\",\"italic\": false},{\"text\": \" \"},{\"translate\": \"pack.greenery\",\"color\": \"green\",\"font\": \"minecraft:default\"}]"
+                        ]
+						}
+					}
+				}
+            ]
+        }
+    }
+}

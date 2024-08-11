@@ -1,0 +1,49 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+        {
+            "item": "minecraft:sugar"
+        },
+        {
+            "item": "minecraft:milk_bucket"
+        },
+        {
+            "item": "minecraft:spider_eye"
+        },
+        {
+            "item": "minecraft:spider_eye"
+        }
+    ],
+    "result": {
+      "id": "minecraft:cooked_chicken",
+      "count": 1,
+      "components": {
+        "minecraft:custom_model_data": 795002,
+        "minecraft:custom_data": {
+          "greenery": {
+            "id": "poison_pop"
+          }
+        },
+        "minecraft:food": {
+          "nutrition": 2,
+          "saturation": 0.4,
+          "using_converts_to": {
+            "id": "minecraft:stick"
+          },
+          "effects": [
+            {
+              "effect": {
+                "id": "poison",
+                "duration": 100
+              }
+            }
+          ]
+        },
+        "minecraft:item_name": "{\"translate\":\"item.greenery.poison_pop\"}",
+        "minecraft:lore": [
+          "[{\"translate\": \"lore.greenery.tooltip\",\"color\": \"white\",\"font\": \"greenery:tooltip\",\"italic\": false},{\"text\": \" \"},{\"translate\": \"pack.greenery\",\"color\": \"green\",\"font\": \"minecraft:default\"}]"
+        ]
+      }
+    }
+}

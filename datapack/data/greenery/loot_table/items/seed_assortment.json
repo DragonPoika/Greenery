@@ -1,0 +1,66 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:armor_stand",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "translate": "item.greenery.seed_assortment",
+                "fallback": "Seed Assortment",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                [
+                  {
+                    "translate": "lore.greenery.tooltip",
+                    "color": "white",
+                    "font": "greenery:tooltip",
+                    "italic": false
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "translate": "pack.greenery",
+                    "color": "green",
+                    "font": "minecraft:default"
+                  }
+                ]
+              ],
+              "mode": "insert"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{greenery:[{id:'seed_assortment'}]}"
+            },
+            {
+              "function": "minecraft:set_custom_model_data",
+              "value": 795000
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:entity_data": {
+                  "id":"armor_stand",
+                  "Invisible":true,
+                  "Small":true,
+
+                  "Tags":["greenery.seed_assortment"]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

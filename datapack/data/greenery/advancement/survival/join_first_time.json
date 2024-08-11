@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pitcher_plant"
+    },
+    "title": [
+      {
+        "translate": "lore.greenery.tooltip",
+        "font": "greenery:tooltip",
+        "italic": false
+      },
+      {
+        "text": " "
+      },
+      {
+        "translate": "pack.greenery",
+        "font": "minecraft:default"
+      }
+    ],
+    "description": {
+      "translate": "chat.greenery.description",
+      "fallback": "Greenery is a large content datapack which adds lots of farming and fishing features to the base game."
+    },
+    "background": "minecraft:textures/block/moss_block.png",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "rewards": {
+    "function": "greenery:joined_first_time"
+  }
+}

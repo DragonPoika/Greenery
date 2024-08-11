@@ -1,0 +1,60 @@
+{
+    "music_disc.bloom": {
+        "sounds": [
+            {
+              "name": "greenery:music_disc/bloom",
+              "stream": true
+            }
+        ]
+    },
+    "item.butterfly_net.use": {
+        "sounds": [
+            "greenery:items/butterfly_net/woosh0",
+            "greenery:items/butterfly_net/woosh1",
+            "greenery:items/butterfly_net/woosh2",
+            "greenery:items/butterfly_net/woosh3",
+            "greenery:items/butterfly_net/woosh4",
+            "greenery:items/butterfly_net/woosh5"
+        ],
+        "subtitle": "subtitle.greenery.butterfly_net.use"
+    },
+    "block.butterfly_jar.put_in": {
+        "sounds": [
+            "item/bottle/fill_dragonbreath1"
+          ],
+          "subtitle": "subtitles.greenery.butterfly_jar.put_in"
+    },
+    "block.butterfly_jar.take_out": {
+        "sounds": [
+            "item/bottle/fill_dragonbreath2"
+          ],
+          "subtitle": "subtitles.greenery.butterfly_jar.take_out"
+        },
+    "block.display_case.put_in": {
+        "sounds": [
+            "entity/itemframe/add_item1",
+            "entity/itemframe/add_item2",
+            "entity/itemframe/add_item3",
+            "entity/itemframe/add_item4"
+          ],
+          "subtitle": "subtitles.greenery.display_case.put_in"
+        },
+    "block.display_case.take_out": {
+        "sounds": [
+            "entity/itemframe/remove_item1",
+            "entity/itemframe/remove_item2",
+            "entity/itemframe/remove_item3",
+            "entity/itemframe/remove_item4"
+          ],
+          "subtitle": "subtitles.greenery.display_case.take_out"
+    },
+    "block.fishing_net.catch": {
+        "sounds": [
+            {
+                "name": "random/splash",
+                "volume": 0.35
+            }
+        ],
+        "subtitle": "subtitles.greenery.fishing_net.catch"
+    }
+}

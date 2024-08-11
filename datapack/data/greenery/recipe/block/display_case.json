@@ -1,0 +1,53 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "building",
+    "pattern": [
+        "GGG",
+        "###",
+        "   "
+    ],
+    "key": {
+        "#": {
+            "tag": "greenery:stripped_dark_oak"
+        },
+        "G": {
+            "item": "glass"
+        }
+    },
+    "result": {
+        "id": "furnace",
+        "components": {
+            "minecraft:custom_model_data": 795004,
+            "minecraft:custom_data": {
+                "case_content": [],
+                "greenery_block": "display_case",
+                "greenery": "[{id: \"display_case\"}]"
+            },
+            "minecraft:item_name": "{\"translate\":\"block.greenery.display_case\"}",
+            "minecraft:lore": [
+                "[{\"translate\": \"lore.greenery.tooltip\",\"color\": \"white\",\"font\": \"greenery:tooltip\",\"italic\": false},{\"text\": \" \"},{\"translate\": \"pack.greenery\",\"color\": \"green\",\"font\": \"minecraft:default\"}]"
+            ],
+            "minecraft:container": [
+                {
+					"slot": 0,
+					"item": {
+						"id": "minecraft:furnace",
+						"count": 1,
+						"components": {
+							"minecraft:custom_model_data": 795000,
+                            "minecraft:custom_data": {
+                                "case_content": [],
+                                "greenery_block": "display_case",
+                                "greenery": "[{id: \"display_case\"}]"
+                        },
+                        "minecraft:item_name": "{\"translate\":\"block.greenery.display_case\"}",
+                        "minecraft:lore": [
+                            "[{\"translate\": \"lore.greenery.tooltip\",\"color\": \"white\",\"font\": \"greenery:tooltip\",\"italic\": false},{\"text\": \" \"},{\"translate\": \"pack.greenery\",\"color\": \"green\",\"font\": \"minecraft:default\"}]"
+                        ]
+						}
+					}
+				}
+            ]
+        }
+    }
+}

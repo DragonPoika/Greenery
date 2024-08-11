@@ -1,7 +1,8 @@
 {
     "pack.greenery": "Greenery",
     "lore.greenery.tooltip": "\ua000",
-
+    
+    "chat.greenery.description": "Greenery is a large content datapack which adds lots of farming and fishing features to the base game.",
     "chat.greenery.load": "Thanks for downloading %s\nIf you need help, check these links:\n",
     "chat.greenery.dot": "§r ・",
     "chat.greenery.links.discord": " §nDiscord\n",
@@ -11,22 +12,32 @@
     "item.greenery.koi": "Koi",
     "item.greenery.pike": "Pike",
     "item.greenery.tuna": "Tuna",
+    "item.greenery.cave_fish": "Cave Fish",
     "item.greenery.cave_carrot": "Cave Carrot",
     "item.greenery.choco_muffin": "Cocoa Muffin",
     "item.greenery.crystallized_beet": "Crystallized Beetroot",
     "item.greenery.enchanted_crystallized_beet": "Enchanted Crystallized Beetroot",
-    "item.greenery.miners_treat": "Miner's Treat",
     "item.greenery.worm": "Worm",
-    "item.greenery.butterfly_net": "Butterfly Net",
-    "item.greenery.bee_pop": "Bee Pop",
     "item.greenery.seed_assortment": "Seed Assortment",
-
-    "entity.greenery.beekeeper": "Beekeeper",
+    "item.greenery.bee_pop": "Bee Pop",
+    "item.greenery.miners_treat": "Miner's Treat",
+    "item.greenery.poison_pop": "Poison Pop",
+    "item.greenery.royal_jelly": "Royal Jelly",
     
+    "item.greenery.butterfly_net": "Butterfly Net",
+    "lore.greenery.butterfly_net.description1": "Interact while looking at Butterfly:",
+    "lore.greenery.butterfly_net.description2": " Catch Butterfly",
     "item.greenery.butterfly": "%s Butterfly",
     "item.greenery.butterfly.monarch": "Monarch",
     "item.greenery.butterfly.morpho": "Morpho",
     "item.greenery.butterfly.brimstone": "Brimstone",
+    "item.greenery.butterfly.peacock": "Peacock",
+    "item.greenery.butterfly.rustic": "Rustic",
+    "item.greenery.butterfly.jewel": "Jewel",
+
+    "item.greenery.music_disc": "Anton Lund Nielsen - Bloom",
+    
+    "entity.greenery.beekeeper": "Beekeeper",
     
     "enchantment.greenery.replant": "Replant",
 
@@ -35,6 +46,17 @@
     "block.greenery.fishing_net": "Fishing Net",
     "block.greenery.hanging_flower_pot": "Hanging Flower Pot",
     "block.greenery.wide_flower_pot": "Wide Flower Pot",
+
+    "painting.greenery.goldfish.title": "Goldfish",
+    "painting.greenery.goldfish.author": "Henri Matisse",
+    "painting.greenery.nympheas.title": "Nymphéas",
+    "painting.greenery.nympheas.author": "Claude Monet",
+    "painting.greenery.sunflowers.title": "Sunflowers",
+    "painting.greenery.sunflowers.author": "Greenery",
+    "painting.greenery.peonies.title": "Peonies",
+    "painting.greenery.peonies.author": "Greenery",
+    "painting.greenery.forest.title": "Forest",
+    "painting.greenery.forest.author": "Greenery",
 
     "advancement.greenery.join_first_time": "Greenery is an extensive datapack that adds a lot of farming and fishing related features!",
     "advancement.greenery.fish_with_worm": "They took the bait",
@@ -45,10 +67,19 @@
     "advancement.greenery.catch_butterfly.description": "Catch a butterfly",
     "advancement.greenery.find_greenhouse": "A House of Green",
     "advancement.greenery.find_greenhouse.description": "Find a Greenhouse",
-    "advancement.greenery.craft_pots": "You're a §oPotter§r, Harry!",
+    "advancement.greenery.craft_pots": "Potter? Like Harry Potter?",
     "advancement.greenery.craft_pots.description": "Craft all 4 types of pots.",
     "advancement.greenery.catch_all_butterflies": "Gotta Catch 'Em All",
     "advancement.greenery.catch_all_butterflies.description": "Catch every kind of butterfly.",
-    "advancement.greenery.craft_decorated_pot": "Ooooh, ancient!",
-    "advancement.greenery.craft_decorated_pot.description": "Craft a decorated pot with one or more Pottery Sherds."
+    "advancement.greenery.flowerpower": "Flower power!",
+    "advancement.greenery.flowerpower.description": "Obtain every small flower.",
+    "advancement.greenery.craft_fishing_net": "Welcome to the Fishing Net!",
+    "advancement.greenery.craft_fishing_net.description": "Craft a Fishing Net",
+
+    "subtitle.greenery.butterfly_net.use": "Butterfly Net swooshes",
+    "subtitles.greenery.fishing_net.catch": "Fishing Net catches something",
+    "subtitles.greenery.butterfly_jar.put_in": "Butterfly Jar fills",
+    "subtitles.greenery.butterfly_jar.take_out": "Butterfly Jar empties",
+    "subtitles.greenery.display_case.put_in": "Display Case fills",
+    "subtitles.greenery.display_case.take_out": "Display Case empties"
 }

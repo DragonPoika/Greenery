@@ -1,1 +1,0 @@
-data modify entity @s data.case_content set from entity @e[type=item_display,tag=greenery.display_case,limit=1,sort=nearest] item.tag.case_content

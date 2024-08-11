@@ -1,0 +1,32 @@
+{
+    "parent": "greenery:recipes/items/root",
+    "criteria": {
+      "has_sugar": {
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:sugar"
+            }
+          ]
+        },
+        "trigger": "minecraft:inventory_changed"
+      },
+      "has_the_recipe": {
+        "conditions": {
+          "recipe": "greenery:items/bee_pop"
+        },
+        "trigger": "minecraft:recipe_unlocked"
+      }
+    },
+    "requirements": [
+      [
+        "has_the_recipe",
+        "has_sugar"
+      ]
+    ],
+    "rewards": {
+      "recipes": [
+        "greenery:items/bee_pop"
+      ]
+    }
+  }

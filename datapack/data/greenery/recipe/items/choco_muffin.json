@@ -1,0 +1,35 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+        {
+            "item": "minecraft:wheat"
+        },
+        {
+            "item": "minecraft:cocoa_beans"
+        },
+        {
+            "item": "minecraft:egg"
+        }
+    ],
+    "result": {
+      "id": "minecraft:bread",
+      "count": 2,
+      "components": {
+        "minecraft:custom_model_data": 795000,
+        "minecraft:custom_data": {
+          "greenery": {
+            "id": "choco_muffin"
+          }
+        },
+        "minecraft:food": {
+          "nutrition": 5,
+          "saturation": 6
+        },
+        "minecraft:item_name": "{\"translate\":\"item.greenery.choco_muffin\"}",
+        "minecraft:lore": [
+          "[{\"translate\": \"lore.greenery.tooltip\",\"color\": \"white\",\"font\": \"greenery:tooltip\",\"italic\": false},{\"text\": \" \"},{\"translate\": \"pack.greenery\",\"color\": \"green\",\"font\": \"minecraft:default\"}]"
+        ]
+      }
+    }
+}

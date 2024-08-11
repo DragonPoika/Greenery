@@ -1,0 +1,41 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+        {
+            "item": "minecraft:sugar"
+        },
+        {
+            "item": "minecraft:milk_bucket"
+        },
+        {
+            "item": "minecraft:honeycomb"
+        },
+        {
+            "item": "minecraft:honeycomb"
+        }
+    ],
+    "result": {
+      "id": "minecraft:cooked_chicken",
+      "count": 1,
+      "components": {
+        "minecraft:custom_model_data": 795001,
+        "minecraft:custom_data": {
+          "greenery": {
+            "id": "bee_pop"
+          }
+        },
+        "minecraft:food": {
+          "nutrition": 2,
+          "saturation": 0.4,
+          "using_converts_to": {
+            "id": "minecraft:stick"
+          }
+        },
+        "minecraft:item_name": "{\"translate\":\"item.greenery.bee_pop\"}",
+        "minecraft:lore": [
+          "[{\"translate\": \"lore.greenery.tooltip\",\"color\": \"white\",\"font\": \"greenery:tooltip\",\"italic\": false},{\"text\": \" \"},{\"translate\": \"pack.greenery\",\"color\": \"green\",\"font\": \"minecraft:default\"}]"
+        ]
+      }
+    }
+}

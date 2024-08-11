@@ -1,0 +1,10 @@
+{
+    "replace": false,
+    "values": [
+        "greenery:nympheas",
+        "greenery:goldfish",
+        "greenery:sunflowers",
+        "greenery:forest",
+        "greenery:peonies"
+    ]
+}

@@ -1,0 +1,36 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "greenery:items/bee_pop"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "greenery:items/poison_pop"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "greenery:items/miners_treat"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "value": "minecraft:gameplay/fishing/junk",
+            "weight": 70
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "minecraft:gameplay/fishing/fish",
+            "weight": 20
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "minecraft:gameplay/fishing/treasure",
+            "weight": 5
+          }
+        ]
+      }
+    ]
+  }

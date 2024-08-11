@@ -1,0 +1,217 @@
+{
+    "providers": [
+      {
+        "type": "space",
+        "advances": {
+          " ": 4
+        }
+      },
+      {
+        "type": "bitmap",
+        "file": "greenery:item/butterfly/brimstone.png",
+        "ascent": 12,
+        "height": 16,
+        "chars": [
+          "\ua000"
+        ]
+      },
+      {
+        "type": "bitmap",
+        "file": "greenery:item/butterfly/monarch.png",
+        "ascent": 12,
+        "height": 16,
+        "chars": [
+          "\ua001"
+        ]
+      },
+      {
+        "type": "bitmap",
+        "file": "greenery:item/butterfly/morpho.png",
+        "ascent": 12,
+        "height": 16,
+        "chars": [
+          "\ua002"
+        ]
+      },
+      {
+        "type": "bitmap",
+        "file": "greenery:item/bee_pop.png",
+        "ascent": 12,
+        "height": 16,
+        "chars": [
+          "\ua003"
+        ]
+      },
+      {
+        "type": "bitmap",
+        "file": "greenery:item/butterfly_jar.png",
+        "ascent": 12,
+        "height": 16,
+        "chars": [
+          "\ua004"
+        ]
+      },
+      {
+        "type": "bitmap",
+        "file": "greenery:item/butterfly_net.png",
+        "ascent": 12,
+        "height": 16,
+        "chars": [
+          "\ua005"
+        ]
+      },
+      {
+        "type": "bitmap",
+        "file": "greenery:item/cactus_fruit.png",
+        "ascent": 12,
+        "height": 16,
+        "chars": [
+          "\ua006"
+        ]
+      },
+      {
+        "type": "bitmap",
+        "file": "greenery:item/cave_carrot.png",
+        "ascent": 12,
+        "height": 16,
+        "chars": [
+          "\ua007"
+        ]
+      },
+      {
+        "type": "bitmap",
+        "file": "greenery:item/cave_fish.png",
+        "ascent": 12,
+        "height": 16,
+        "chars": [
+          "\ua008"
+        ]
+      },
+      {
+        "type": "bitmap",
+        "file": "greenery:item/choco_muffin.png",
+        "ascent": 12,
+        "height": 16,
+        "chars": [
+          "\ua009"
+        ]
+      },
+      {
+        "type": "bitmap",
+        "file": "greenery:item/crystallized_beet.png",
+        "ascent": 12,
+        "height": 16,
+        "chars": [
+          "\ua010"
+        ]
+      },
+      {
+        "type": "bitmap",
+        "file": "greenery:gui/renders/fishing_net.png",
+        "ascent": 12,
+        "height": 16,
+        "chars": [
+          "\ua011"
+        ]
+      },
+      {
+        "type": "bitmap",
+        "file": "greenery:item/hanging_flower_pot.png",
+        "ascent": 12,
+        "height": 16,
+        "chars": [
+          "\ua012"
+        ]
+      },
+      {
+        "type": "bitmap",
+        "file": "greenery:item/koi.png",
+        "ascent": 12,
+        "height": 16,
+        "chars": [
+          "\ua013"
+        ]
+      },
+      {
+        "type": "bitmap",
+        "file": "greenery:item/miners_treat.png",
+        "ascent": 12,
+        "height": 16,
+        "chars": [
+          "\ua014"
+        ]
+      },
+      {
+        "type": "bitmap",
+        "file": "greenery:item/pike.png",
+        "ascent": 12,
+        "height": 16,
+        "chars": [
+          "\ua015"
+        ]
+      },
+      {
+        "type": "bitmap",
+        "file": "greenery:item/poison_pop.png",
+        "ascent": 12,
+        "height": 16,
+        "chars": [
+          "\ua016"
+        ]
+      },
+      {
+        "type": "bitmap",
+        "file": "greenery:item/seed_assortment.png",
+        "ascent": 12,
+        "height": 16,
+        "chars": [
+          "\ua017"
+        ]
+      },
+      {
+        "type": "bitmap",
+        "file": "greenery:item/tuna.png",
+        "ascent": 12,
+        "height": 16,
+        "chars": [
+          "\ua018"
+        ]
+      },
+      {
+        "type": "bitmap",
+        "file": "greenery:item/wide_flower_pot.png",
+        "ascent": 12,
+        "height": 16,
+        "chars": [
+          "\ua019"
+        ]
+      },
+      {
+        "type": "bitmap",
+        "file": "greenery:item/worm.png",
+        "ascent": 12,
+        "height": 16,
+        "chars": [
+          "\ua020"
+        ]
+      },
+      {
+        "type": "bitmap",
+        "file": "greenery:gui/renders/display_case.png",
+        "ascent": 12,
+        "height": 16,
+        "chars": [
+          "\ua021"
+        ]
+      },
+      {
+        "type": "bitmap",
+        "file": "greenery:block/beehive/beehive_front.png",
+        "ascent": 12,
+        "height": 16,
+        "chars": [
+          "\ua022"
+        ]
+      }
+    ]
+  }

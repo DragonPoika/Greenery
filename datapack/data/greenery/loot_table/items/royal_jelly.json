@@ -1,0 +1,68 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:honey_bottle",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "translate": "item.greenery.royal_jelly",
+                "fallback": "Royal Jelly",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                [
+                  {
+                    "translate": "lore.greenery.tooltip",
+                    "color": "white",
+                    "font": "greenery:tooltip",
+                    "italic": false
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "translate": "pack.greenery",
+                    "color": "green",
+                    "font": "minecraft:default"
+                  }
+                ]
+              ],
+              "mode": "insert"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{greenery:[{id:'royal_jelly'}]}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 8,
+                  "saturation": 1.6,
+                  "effects": [
+                    {
+                      "effect": {
+                        "id": "minecraft:regeneration",
+                        "duration": 200
+                      }
+                    }
+                  ]
+                },
+                "minecraft:enchantment_glint_override": true
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

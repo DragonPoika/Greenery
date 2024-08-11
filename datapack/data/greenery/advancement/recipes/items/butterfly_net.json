@@ -1,0 +1,32 @@
+{
+	"parent": "greenery:recipes/items/root",
+	"criteria": {
+		"has_wool": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "#minecraft:wool"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "greenery:items/butterfly_net"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_the_recipe",
+			"has_wool"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"greenery:items/butterfly_net"
+		]
+	}
+}

@@ -1,0 +1,71 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "translate": "item.greenery.butterfly_net",
+                "fallback": "Butterfly Net",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                [
+                  {
+                    "translate": "lore.greenery.tooltip",
+                    "color": "white",
+                    "font": "greenery:tooltip",
+                    "italic": false
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "translate": "pack.greenery",
+                    "color": "green",
+                    "font": "minecraft:default"
+                  }
+                ],
+                " ",
+                {
+                  "translate": "lore.greenery.butterfly_net.description1",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "translate": "lore.greenery.butterfly_net.description2",
+                  "color": "blue",
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{greenery:[{id:'butterfly_net'}]}"
+            },
+            {
+              "function": "minecraft:set_custom_model_data",
+              "value": 795000
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "max_damage": 64
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_carrot",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "translate": "item.greenery.crystallized_beet",
+                "fallback": "Crystallized Beet",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                [
+                  {
+                    "translate": "lore.greenery.tooltip",
+                    "color": "white",
+                    "font": "greenery:tooltip",
+                    "italic": false
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "translate": "pack.greenery",
+                    "color": "green",
+                    "font": "minecraft:default"
+                  }
+                ]
+              ],
+              "mode": "insert"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{greenery:[{id:'crystallized_beet'}]}"
+            },
+            {
+              "function": "minecraft:set_custom_model_data",
+              "value": 795001
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

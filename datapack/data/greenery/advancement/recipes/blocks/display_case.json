@@ -1,0 +1,35 @@
+{
+	"parent": "greenery:recipes/blocks/root",
+	"criteria": {
+		"has_butterfly": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:jigsaw",
+						"predicates": {
+							"minecraft:custom_data": "{greenery:[{id:'butterfly'}]}"
+						}
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "greenery:blocks/display_case"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_the_recipe",
+			"has_butterfly"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"greenery:blocks/display_case"
+		]
+	}
+}

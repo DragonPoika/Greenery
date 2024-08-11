@@ -1,0 +1,51 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "building",
+    "pattern": [
+        "###",
+        "#X#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "tag": "minecraft:planks"
+        },
+        "X": {
+            "item": "minecraft:honeycomb"
+        }
+    },
+    "result": {
+        "id": "furnace",
+        "components": {
+            "minecraft:custom_model_data": 795011,
+            "minecraft:custom_data": {
+                "greenery_block": "beehive",
+                "greenery": "[{id: \"beehive\"}]"
+            },
+            "minecraft:item_name": "{\"translate\":\"block.greenery.beehive\"}",
+            "minecraft:lore": [
+                "[{\"translate\": \"lore.greenery.tooltip\",\"color\": \"white\",\"font\": \"greenery:tooltip\",\"italic\": false},{\"text\": \" \"},{\"translate\": \"pack.greenery\",\"color\": \"green\",\"font\": \"minecraft:default\"}]"
+            ],
+            "minecraft:container": [
+                {
+					"slot": 0,
+					"item": {
+						"id": "minecraft:furnace",
+						"count": 1,
+						"components": {
+							"minecraft:custom_model_data": 795011,
+                            "minecraft:custom_data": {
+                                "greenery_block": "beehive",
+                                "greenery": "[{id: \"beehive\"}]"
+                        },
+                        "minecraft:item_name": "{\"translate\":\"block.greenery.beehive\"}",
+                        "minecraft:lore": [
+                            "[{\"translate\": \"lore.greenery.tooltip\",\"color\": \"white\",\"font\": \"greenery:tooltip\",\"italic\": false},{\"text\": \" \"},{\"translate\": \"pack.greenery\",\"color\": \"green\",\"font\": \"minecraft:default\"}]"
+                        ]
+						}
+					}
+				}
+            ]
+        }
+    }
+}

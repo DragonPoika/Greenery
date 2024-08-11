@@ -1,0 +1,41 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+        {
+            "item": "minecraft:amethyst_shard"
+        },
+        {
+            "item": "minecraft:amethyst_shard"
+        },
+        {
+            "item": "minecraft:amethyst_shard"
+        },
+        {
+            "item": "minecraft:amethyst_shard"
+        },
+        {
+            "item": "minecraft:beetroot"
+        }
+    ],
+    "result": {
+      "id": "minecraft:golden_carrot",
+      "count": 1,
+      "components": {
+        "minecraft:custom_model_data": 795000,
+        "minecraft:custom_data": {
+          "greenery": {
+            "id": "crystallized_beet"
+          }
+        },
+        "minecraft:food": {
+          "nutrition": 6,
+          "saturation": 14.4
+        },
+        "minecraft:item_name": "{\"translate\":\"item.greenery.crystallized_beet\"}",
+        "minecraft:lore": [
+          "[{\"translate\": \"lore.greenery.tooltip\",\"color\": \"white\",\"font\": \"greenery:tooltip\",\"italic\": false},{\"text\": \" \"},{\"translate\": \"pack.greenery\",\"color\": \"green\",\"font\": \"minecraft:default\"}]"
+        ]
+      }
+    }
+}

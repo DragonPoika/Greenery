@@ -7,6 +7,9 @@
 	"overrides": [
 		{"predicate": {"custom_model_data":795000}, "model": "greenery:item/butterfly/monarch"},
     {"predicate": {"custom_model_data":795001}, "model": "greenery:item/butterfly/morpho"},
-    {"predicate": {"custom_model_data":795002}, "model": "greenery:item/butterfly/brimstone"}
+    {"predicate": {"custom_model_data":795002}, "model": "greenery:item/butterfly/brimstone"},
+    {"predicate": {"custom_model_data":795003}, "model": "greenery:item/butterfly/peacock"},
+    {"predicate": {"custom_model_data":795004}, "model": "greenery:item/butterfly/rustic"},
+    {"predicate": {"custom_model_data":795005}, "model": "greenery:item/butterfly/jewel"}
 	]
 }

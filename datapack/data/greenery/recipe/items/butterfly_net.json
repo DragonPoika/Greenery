@@ -1,0 +1,39 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+        "  #",
+        " /|",
+        "/  "
+    ],
+    "key": {
+        "#": {
+            "tag": "minecraft:wool"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        },
+        "|": {
+            "item": "minecraft:string"
+        }
+    },
+    "result": {
+      "id": "minecraft:warped_fungus_on_a_stick",
+      "count": 1,
+      "components": {
+        "minecraft:custom_model_data": 795000,
+        "minecraft:custom_data": {
+          "greenery": [{
+            "id": "butterfly_net"
+          }]
+        },
+        "minecraft:item_name": "{\"translate\":\"item.greenery.butterfly_net\"}",
+        "minecraft:lore": [
+          "[{\"translate\":\"lore.greenery.tooltip\",\"color\":\"white\",\"font\":\"greenery:tooltip\",\"italic\":false},\" \",{\"translate\":\"pack.greenery\",\"color\":\"green\",\"font\":\"minecraft:default\"}]", "\"\"",
+          "{\"translate\":\"lore.greenery.butterfly_net.description1\",\"color\":\"gray\",\"font\":\"minecraft:default\",\"italic\":false}", 
+          "{\"translate\":\"lore.greenery.butterfly_net.description2\",\"color\":\"blue\",\"font\":\"minecraft:default\",\"italic\":false}"
+        ],
+        "max_damage": 64
+      }
+    }
+}

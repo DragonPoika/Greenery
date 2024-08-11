@@ -1,0 +1,66 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cooked_chicken",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "translate": "item.greenery.bee_pop",
+                "fallback": "Bee Pop",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                [
+                  {
+                    "translate": "lore.greenery.tooltip",
+                    "color": "white",
+                    "font": "greenery:tooltip",
+                    "italic": false
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "translate": "pack.greenery",
+                    "color": "green",
+                    "font": "minecraft:default"
+                  }
+                ]
+              ],
+              "mode": "insert"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{greenery:[{id:'bee_pop'}]}"
+            },
+            {
+              "function": "minecraft:set_custom_model_data",
+              "value": 795001
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 2,
+                  "saturation": 0.4,
+                  "using_converts_to": {
+                    "id": "minecraft:stick"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

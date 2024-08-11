@@ -1,0 +1,88 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:jigsaw",
+      "components": {
+        "minecraft:custom_model_data": 795002
+      }
+    },
+    "title": {
+      "translate": "advancement.greenery.catch_all_butterflies",
+      "fallback": "Gotta Catch 'Em All!"
+    },
+    "description": {
+      "translate": "advancement.greenery.catch_all_butterflies.description",
+      "fallback": "Catch every kind of butterfly."
+    },
+    "frame": "challenge",
+    "hidden": false
+  },
+  "parent": "greenery:survival/catch_morpho",
+  "criteria": {
+    "morpho": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:jigsaw"
+            ],
+            "components": {
+              "minecraft:custom_model_data": 795000
+            },
+            "predicates": {
+              "minecraft:custom_data": "{greenery:[{id:'butterfly'}]}"
+            }
+          }
+        ]
+      }
+    },
+    "monarch": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:jigsaw"
+            ],
+            "components": {
+              "minecraft:custom_model_data": 795001
+            },
+            "predicates": {
+              "minecraft:custom_data": "{greenery:[{id:'butterfly'}]}"
+            }
+          }
+        ]
+      }
+    },
+    "brimstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:jigsaw"
+            ],
+            "components": {
+              "minecraft:custom_model_data": 795002
+            },
+            "predicates": {
+              "minecraft:custom_data": "{greenery:[{id:'butterfly'}]}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "morpho"
+    ],
+    [
+      "monarch"
+    ],
+    [
+      "brimstone"
+    ]
+  ]
+}

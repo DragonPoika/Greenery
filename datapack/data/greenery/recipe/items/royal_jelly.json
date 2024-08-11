@@ -1,0 +1,43 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+        {
+            "item": "minecraft:glowstone_dust"
+        },
+        {
+            "item": "minecraft:glowstone_dust"
+        },
+        {
+            "item": "minecraft:honey_bottle"
+        }
+    ],
+    "result": {
+      "id": "minecraft:honey_bottle",
+      "count": 1,
+      "components": {
+        "minecraft:custom_data": {
+          "greenery": {
+            "id": "royal_jelly"
+          }
+        },
+        "minecraft:food": {
+          "nutrition": 8,
+          "saturation": 1.6,
+          "effects": [
+            {
+                "effect": {
+                    "id": "regeneration",
+                    "duration": 200
+                }
+            }
+          ]
+        },
+        "minecraft:item_name": "{\"translate\":\"item.greenery.royal_jelly\"}",
+        "minecraft:lore": [
+          "[{\"translate\": \"lore.greenery.tooltip\",\"color\": \"white\",\"font\": \"greenery:tooltip\",\"italic\": false},{\"text\": \" \"},{\"translate\": \"pack.greenery\",\"color\": \"green\",\"font\": \"minecraft:default\"}]"
+        ],
+        "minecraft:enchantment_glint_override": true
+      }
+    }
+}

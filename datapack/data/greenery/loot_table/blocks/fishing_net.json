@@ -1,0 +1,113 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:furnace",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_model_data",
+              "value": 795010
+            },
+            {
+              "function": "minecraft:set_contents",
+              "component": "minecraft:container",
+              "entries": [
+                {
+                  "type": "minecraft:item",
+                  "name": "minecraft:cookie",
+                  "functions": [
+                    {
+                      "function": "minecraft:set_lore",
+                      "lore": [
+                        [
+                          {
+                            "translate": "lore.greenery.tooltip",
+                            "color": "white",
+                            "font": "greenery:tooltip",
+                            "italic": false
+                          },
+                          {
+                            "text": " "
+                          },
+                          {
+                            "translate": "pack.greenery",
+                            "color": "green",
+                            "font": "minecraft:default"
+                          }
+                        ]
+                      ],
+                      "mode": "insert"
+                    },
+                    {
+                      "function": "minecraft:set_name",
+                      "name": {
+                        "translate": "block.greenery.fishing_net",
+                        "fallback": "Fishing Net",
+                        "italic": false
+                      }
+                    },
+                    {
+                      "function": "minecraft:set_custom_model_data",
+                      "value": 795005
+                    },
+                    {
+                      "function": "minecraft:set_components",
+                      "components": {
+                        "minecraft:custom_data": {
+                          "greenery_block": "fishing_net",
+                          "greenery": "[{id: \"fishing_net\"}]"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "block.greenery.fishing_net",
+                "fallback": "Fishing Net",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                [
+                  {
+                    "translate": "lore.greenery.tooltip",
+                    "color": "white",
+                    "font": "greenery:tooltip",
+                    "italic": false
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "translate": "pack.greenery",
+                    "color": "green",
+                    "font": "minecraft:default"
+                  }
+                ]
+              ],
+              "mode": "insert"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "greenery_block": "fishing_net",
+                  "greenery": "[{id: \"fishing_net\"}]"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
